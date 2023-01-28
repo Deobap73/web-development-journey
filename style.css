@@ -7,7 +7,7 @@ body {
 
 .main-menu li a {
   text-decoration: none;
-  color: white;
+  color: rgb(211, 113, 21);
 }
 
 .home {
@@ -35,8 +35,9 @@ body {
 }
 
 .home:hover {
-  color: #fff;
+  color: rgb(241, 7, 7);
   text-shadow: 0 0 10px white;
+  background-image: url("./Images/hexagon_light.jpg");
 }
 
 .home .face1,
