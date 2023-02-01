@@ -10,6 +10,7 @@ body {
   color: rgb(211, 113, 21);
 }
 
+/* Home button */
 .home {
   position: fixed;
   right: 50px;
@@ -80,6 +81,7 @@ body {
   transform: rotate(60deg) translate(110px, 0);
 }
 
+/* history button */
 .history {
   position: fixed;
   right: -50px;
@@ -400,17 +402,7 @@ body {
   text-shadow: -4px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* social media */
+/*                                        social media                                             */
 
 .social-media li a {
   text-decoration: none;
@@ -423,7 +415,7 @@ body {
   margin: 50px auto;
   width: 95px;
   height: 55px;
-  background-image: url("./images/hexagon_light.jpg");
+  background-image: url("./Images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
@@ -508,7 +500,7 @@ body {
   margin: 50px auto;
   width: 95px;
   height: 55px;
-  background-image: url("./images/hexagon_light.jpg");
+  background-image: url("./Images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
@@ -592,7 +584,7 @@ body {
   margin: 50px auto;
   width: 95px;
   height: 55px;
-  background-image: url("./images/hexagon_light.jpg");
+  background-image: url("./Images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
@@ -679,7 +671,7 @@ body {
   margin: 50px auto;
   width: 95px;
   height: 55px;
-  background-image: url("./images/hexagon_light.jpg");
+  background-image: url("./Images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
@@ -763,7 +755,7 @@ body {
   margin: 50px auto;
   width: 95px;
   height: 55px;
-  background-image: url("./images/hexagon_light.jpg");
+  background-image: url("./Images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
