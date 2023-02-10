@@ -88,6 +88,8 @@ body{
     /* grid-gap: 80px; */
 }
 
+/* post 1 */
+
 .blog-image_1{
     width: 50%;
     height:auto;
@@ -105,3 +107,19 @@ body{
     background: #1b1b1b;
     color: #fff;
 }
+
+/* Post 2 */
+
+.blog-image_2{
+    width: 50%;
+    height:auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-overview_2{
+    margin: 10px 0 20px;
+    line-height: 30px;
+}
+
