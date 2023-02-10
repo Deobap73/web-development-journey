@@ -67,6 +67,7 @@ publishBtn.addEventListener('click', () => {
             title: blogTitleField.value,
             article: articleFeild.value,
             bannerImage: bannerPath,
+            // threeDaysAgo = new Date(date.getTime() - 3 * 24 * 60 * 60 * 1000),
             publishedAt: `${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`
         })
         .then(() => {
