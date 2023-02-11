@@ -2,8 +2,11 @@ body {
   max-width: 100%;
   position: relative;
   font-family: 'poppins', sans-serif;
-  background-color: rgb(211, 113, 21);
+  background-image: url("../Images/website_background.jpg"), url("../Images/Home_background.png");
+  background-repeat: no-repeat, repeat;
+  background-size: 100%;
 }
+
 
 /* Navigation Bar */
 
@@ -16,20 +19,20 @@ body {
 /* Home button */
 .home {
   position: fixed;
-  right: 365px;
-  margin: 50px auto;
-  width: 95px;
-  height: 55px;
+  right: 22vw;
+  margin: 2.5vw auto;
+  width: 6vw;
+  height: 3.5vw;
   background-image: url("../Images/hexagon_dark.jpg");
   background-position: center center;
   z-index: 1;
   /* Text styling */
-  line-height: 55px;
+  line-height: 3.5vw;
   text-align: center;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 1vw;
   font-weight: bold;
-  letter-spacing: 6px;
+  letter-spacing: 0.5vw;
   color: #fff;
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
@@ -60,8 +63,8 @@ body {
 .home .face2:before {
   content: "";
   position: absolute;
-  width: 55px;
-  height: 55px;
+  width: 3.5vw;
+  height: 3.5vw;
   background: inherit;
 }
 
@@ -88,20 +91,20 @@ body {
 /* history button */
 .history {
   position: fixed;
-  right: 265px;
-   margin: 50px auto;
-  width: 95px;
-  height: 55px;
+  right: 15.5vw;
+  margin: 2.5vw auto;
+  width: 6vw;
+  height: 3.5vw;
   background-image: url("../Images/hexagon_dark.jpg");
   background-position: center center;
   z-index: 1;
   /* Text styling */
-  line-height: 55px;
+  line-height: 3.5vw;
   text-align: center;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 1vw;
   font-weight: bold;
-  letter-spacing: 6px;
+  letter-spacing: 0.2vw;
   color: #fff;
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
@@ -132,8 +135,8 @@ body {
 .history .face4:before {
   content: "";
   position: absolute;
-  width: 55px;
-  height: 55px;
+  width: 3.5vw;
+  height: 3.5vw;
   background: inherit;
 }
 
@@ -159,20 +162,20 @@ body {
 
 .contact {
   position: fixed;
-  right: 165px;
-  margin: 50px auto;
-  width: 95px;
-  height: 55px;
+  right: 9vw;
+  margin: 2.5vw auto;
+  width: 6vw;
+  height: 3.5vw;
   background-image: url("../Images/hexagon_dark.jpg");
   background-position: center center;
   z-index: 1;
   /* Text styling */
-  line-height: 55px;
+  line-height: 3.5vw;
   text-align: center;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 1vw;
   font-weight: bold;
-  letter-spacing: 6px;
+  letter-spacing: 0.2vw;
   color: #fff;
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
@@ -203,8 +206,8 @@ body {
 .contact .face6:before {
   content: "";
   position: absolute;
-  width: 55px;
-  height: 55px;
+  width: 3.5vw;
+  height: 3.5vw;
   background: inherit;
 }
 
@@ -230,21 +233,20 @@ body {
 
 .blog {
   position: fixed;
-  right: 315px;
-  top: 87px;
-  margin: 50px auto;
-  width: 95px;
-  height: 55px;
+  right: 18.8vw;
+  margin: 8.2vw auto;
+  width: 6vw;
+  height: 3.5vw;
   background-image: url("../Images/hexagon_dark.jpg");
   background-position: center center;
   z-index: 1;
   /* Text styling */
-  line-height: 55px;
+  line-height: 3.5vw;
   text-align: center;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 1vw;
   font-weight: bold;
-  letter-spacing: 6px;
+  letter-spacing: 0.2vw;
   color: #fff;
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
@@ -275,8 +277,8 @@ body {
 .blog .face8:before {
   content: "";
   position: absolute;
-  width: 55px;
-  height: 55px;
+  width: 3.5vw;
+  height: 3.5vw;
   background: inherit;
 }
 
@@ -302,11 +304,10 @@ body {
 
 .work {
   position: fixed;
-  right: 215px;
-  top: 87px;
-  margin: 50px auto;
-  width: 95px;
-  height: 55px;
+  right: 12.2vw;
+  margin: 8.2vw auto;
+  width: 6vw;
+  height: 3.5vw;
   background-image: url("../Images/hexagon_dark.jpg");
   background-position: center center;
   z-index: 1;
@@ -347,8 +348,8 @@ body {
 .work .face10:before {
   content: "";
   position: absolute;
-  width: 55px;
-  height: 55px;
+  width: 3.5vw;
+  height: 3.5vw;
   background: inherit;
 }
 
@@ -376,11 +377,11 @@ body {
 
 .home-page-title {
   /* border: 2px solid yellow; */
-  min-height: 600px;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 10px;
+  margin: 2vw;
   font-weight: bold;
 }
 
@@ -423,22 +424,22 @@ body {
 
 .social-media-1 {
   position: fixed;
-  bottom: -16px;
-  left: 50px;
-  margin: 50px auto;
-  width: 95px;
-  height: 55px;
+  bottom: -1vw;
+  left: 3vw;
+  margin: 3vw auto;
+  width: 6vw;
+  height: 3.5vw;
   background-image: url("../Images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
   /* Text styling */
-  line-height: 55px;
+  line-height: 3.5vw;
   text-align: center;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 1vw;
   font-weight: bold;
-  letter-spacing: 6px;
+  letter-spacing: 0.5vw;
   color: #fff;
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
@@ -447,11 +448,11 @@ body {
 
 .social-media-1 a .fa {
   position: fixed;
-  bottom: 36px;
-  left: 78px;
-  line-height: 55px;
+  bottom: 2vw;
+  left: 4.5vw;
+  line-height: 3.5vw;
   text-align: center;
-  font-size: 45px;
+  font-size: 3vw;
   font-weight: bold;
   color: rgb(0, 0, 0);
 }
@@ -484,8 +485,8 @@ body {
 .social-media-1 .face2:before {
   content: "";
   position: absolute;
-  width: 55px;
-  height: 55px;
+  width: 6vw;
+  height: 3.5vw;
   background: inherit;
 }
 
