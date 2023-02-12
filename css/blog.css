@@ -107,7 +107,7 @@ body {
 
 .blog-overview_1 {
     margin: 5vw 0 5vw;
-    line-height: 5vw;
+    line-height: auto;
 }
 
 .btn.dark {
@@ -126,10 +126,11 @@ body {
 }
 
 .blog-title_2 {
-    font-size: 2vw;
+    font-size: 4vw;
     font-style: bold;
+    text-align: center;
 }
 
 .blog-overview_2 {
-    margin: 1vw 0 5vw;
-    line-height: 2vw;
+    margin: 5vw 0 5vw;
+    line-height: auto;
