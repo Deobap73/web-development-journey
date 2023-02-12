@@ -86,7 +86,7 @@ body {
     padding: 5vw 5vw;
     display: block;
     text-align: justify;
-    font-size: 1vw;
+    /* font-size: 1vw; */
 
 }
 
@@ -94,20 +94,20 @@ body {
 
 .blog-image_1 {
     max-width: 100%;
-    /* height: auto; */
     object-fit: cover;
     border-radius: 1vw;
     margin-bottom: 1vw;
 }
 
-.blog-title_1{
-    font-size: 2vw;
+.blog-title_1 {
+    font-size: 4vw;
     font-style: bold;
+    text-align: center;
 }
 
 .blog-overview_1 {
-    margin: 1vw 0 5vw;
-    line-height: 2vw;
+    margin: 5vw 0 5vw;
+    line-height: 5vw;
 }
 
 .btn.dark {
@@ -125,7 +125,7 @@ body {
     margin-bottom: 1vw;
 }
 
-.blog-title_2{
+.blog-title_2 {
     font-size: 2vw;
     font-style: bold;
 }
