@@ -33,8 +33,8 @@ body {
   font-size: 1vw;
   font-weight: bold;
   letter-spacing: 0.5vw;
-  color: #fff;
-  color: rgba(255, 255, 255, 0.5);
+  /* color: #fff;
+  color: rgba(255, 255, 255, 0.5); */
   cursor: pointer;
   transition: color 500ms ease, text-shadow 500ms ease;
 }
@@ -424,7 +424,7 @@ body {
 
 .social-media-1 {
   position: fixed;
-  bottom: -1vw;
+  bottom: 1vw;
   left: 3vw;
   margin: 3vw auto;
   width: 6vw;
@@ -448,7 +448,7 @@ body {
 
 .social-media-1 a .fa {
   position: fixed;
-  bottom: 2vw;
+  bottom: 4vw;
   left: 4.5vw;
   line-height: 3.5vw;
   text-align: center;
@@ -512,22 +512,22 @@ body {
 
 .social-media-2 {
   position: fixed;
-  bottom: 70px;
-  left: 100px;
-  margin: 50px auto;
-  width: 95px;
-  height: 55px;
+  bottom: 6.8vw;
+  left: 6.5vw;
+  margin: 3vw auto;
+  width: 6vw;
+  height: 3.5vw;
   background-image: url("../Images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
   /* Text styling */
-  line-height: 55px;
+  line-height: 3.5vw;
   text-align: center;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 1vw;
   font-weight: bold;
-  letter-spacing: 6px;
+  letter-spacing: 0.5vw;
   color: #fff;
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
@@ -536,11 +536,11 @@ body {
 
 .social-media-2 a .fa {
   position: fixed;
-  bottom: 120px;
-  left: 128px;
-  line-height: 55px;
+  bottom: 9.8vw;
+  left: 8.2vw;
+  line-height: 3.5vw;
   text-align: center;
-  font-size: 45px;
+  font-size: 3vw;
   /* font-weight: bold; */
   color: rgb(255, 0, 0);
 }
@@ -599,22 +599,22 @@ body {
 
 .social-media-3 {
   position: fixed;
-  bottom: 70px;
-  left: 200px;
-  margin: 50px auto;
-  width: 95px;
-  height: 55px;
+  bottom: 6.8vw;
+  left: 13.2vw;
+  margin: 3vw auto;
+  width: 6vw;
+  height: 3.5vw;
   background-image: url("../Images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
   /* Text styling */
-  line-height: 55px;
+  line-height: 3.5vw;
   text-align: center;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 1vw;
   font-weight: bold;
-  letter-spacing: 6px;
+  letter-spacing: 0.5vw;
   color: #fff;
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
@@ -622,12 +622,11 @@ body {
 }
 
 .social-media-3 a .fa {
-  position: fixed;
-  bottom: 120px;
-  left: 228px;
-  line-height: 55px;
+  bottom: 9.5vw;
+  left: 8.2vw;
+  line-height: 3.5vw;
   text-align: center;
-  font-size: 45px;
+  font-size: 3vw;
   font-weight: bold;
   color: rgb(0, 0, 0);
 }
@@ -689,21 +688,22 @@ body {
 
 .social-media-4 {
   position: fixed;
-  bottom: -16px;
-  left: 250px;
-  margin: 50px auto;
-  width: 95px;
-  height: 55px;
+  bottom: 1vw;
+  left: 16.3vw;
+  margin: 3vw auto;
+  width: 6vw;
+  height: 3.5vw;
   background-image: url("../Images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
   /* Text styling */
-  line-height: 55px;
+  line-height: 3.5vw;
   text-align: center;
   font-family: sans-serif;
-  font-size: 15px;
-  letter-spacing: 6px;
+  font-size: 1vw;
+  font-weight: bold;
+  letter-spacing: 0.5vw;
   color: #fff;
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
@@ -712,11 +712,11 @@ body {
 
 .social-media-4 a .fa {
   position: fixed;
-  bottom: 36px;
-  left: 278px;
-  line-height: 55px;
+  bottom: 4vw;
+  left: 18vw;
+  line-height: 3.5vw;
   text-align: center;
-  font-size: 45px;
+  font-size: 3vw;
   font-weight: bold;
   color: #005eaa;
 }
@@ -776,22 +776,22 @@ body {
 
 .social-media-5 {
   position: fixed;
-  bottom: -16px;
-  left: 150px;
-  margin: 50px auto;
-  width: 95px;
-  height: 55px;
+  bottom: 1vw;
+  left: 9.7vw;
+  margin: 3vw auto;
+  width: 6vw;
+  height: 3.5vw;
   background-image: url("../Images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
   /* Text styling */
-  line-height: 55px;
+  line-height: 3.5vw;
   text-align: center;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 1vw;
   font-weight: bold;
-  letter-spacing: 6px;
+  letter-spacing: 0.5vw;
   color: #fff;
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
@@ -800,11 +800,11 @@ body {
 
 .social-media-5 a .fa {
   position: fixed;
-  bottom: 36px;
-  left: 178px;
-  line-height: 55px;
+  bottom: 4vw;
+  left: 4.5vw;
+  line-height: 10.5vw;
   text-align: center;
-  font-size: 45px;
+  font-size: 3vw;
   font-weight: bold;
   color: rgb(0, 0, 0);
 }
