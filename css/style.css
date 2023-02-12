@@ -12,6 +12,7 @@ body {
 
 .main-menu li a {
   max-width: 100%;
+  font-size: 1vw;
   text-decoration: none;
   color: rgb(211, 113, 21);
 }
