@@ -131,9 +131,10 @@ body {
 }
 
 .blog-title_2 {
-    font-size: 4vw;
+    font-size: 6vw;
     font-style: bold;
     text-align: center;
+    margin: 2vw;
 }
 
 .blog-overview_2 {
@@ -152,9 +153,10 @@ body {
 }
 
 .blog-title_3 {
-    font-size: 4vw;
+    font-size: 6vw;
     font-style: bold;
     text-align: center;
+    margin: 2vw;
 }
 
 .blog-overview_3 {
