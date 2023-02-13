@@ -134,3 +134,24 @@ body {
 .blog-overview_2 {
     margin: 5vw 0 5vw;
     line-height: auto;
+}
+
+.blog-image_3 {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
+}
+
+.blog-title_3 {
+    font-size: 4vw;
+    font-style: bold;
+    text-align: center;
+}
+
+.blog-overview_3 {
+    margin: 5vw 0 5vw;
+    line-height: auto;
+}
+
