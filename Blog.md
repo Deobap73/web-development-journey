@@ -62,3 +62,82 @@ A way to test commands in the terminal.
 At the end we did an evaluation
 
 **February 16, 2023**
+
+It was an interesting day dedicated to “Git”
+
+**What is Git?**
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+After that, we start its installation and start using basic commands for your use…
+
+* sudo apt-get install git
+
+After installing it, start your terminal and type the following command to verify that Git is ready to be used on your computer:
+
+* git –version
+
+In your terminal, run the following commands to identify yourself with Git:
+
+* git config --global user.name "Your Name"
+* git config --global user.email "your@email.com"
+
+To create a new repository and start tracking your project with Git, use your terminal
+
+* git init
+
+This is a command that is very often used when working with Git. It shows us which files have been changed, which files are tracked, etc.
+
+* git status
+
+**staging files**
+
+From the project folder, we can use the git add command to add our files to the staging area, which allows them to be tracked.
+We can add a specific file to the staging area with the following command:
+
+* git add file.js
+
+To add multiple files, we can do this:
+
+* git add file.js file2.js file3.js
+
+Instead of having to add the files individually, we can also add all the files inside the project folder to the staging area:
+
+* git add .
+
+By default, this adds all the files and folders inside the project folder to the staging area, from where they are ready to be committed and tracked.
+
+**Making commits**
+
+A commit is a snapshot of our code at a particular time, which we are saving to the commit history of our repository. After adding all the files that we want to track to the staging area with the **git add** command, we are ready to make a commit.
+
+To commit the files from the staging area, we use the following command:
+
+* git commit -m "Commit message"
+
+Inside the quotes, we should write a commit message which is used to identify it in the commit history.
+
+The commit message should be a descriptive summary of the changes you are committing to the repository.
+
+**Branching**
+
+Whenever we initialize a folder as a repository, there will be one default branch (typically called master).
+
+We can create a branch that is a copy of (usually) the main branch. Then you can add your changes to this branch without affecting the main branch.
+
+**Creating a new branch**
+
+You can create a new branch using the following command:
+
+* merging branches
+
+Once we create a branch from master, they start living separate lives so to say. We don't want this to continue for too long, because it will become harder and harder to bring the two together.
+
+For example, after you fully implemented and tested a new feature in your code, you would want to merge those changes to the stable branch of your project (which is usually the default master branch).
+To merge the changes from a different branch into your current branch, you can use this command:
+
+* git merge <branch-name>
+
+It was a good day of learning...
+
+**February 17, 2023**
