@@ -141,3 +141,17 @@ To merge the changes from a different branch into your current branch, you can u
 It was a good day of learning...
 
 **February 17, 2023**
+
+… *soft skills day*
+
+once again it was an interesting day where we focused on communication and feelings.
+
+We focus on “Communications Square - Friedemann Schulz von Thun” in *“Appreciative communication”*
+
+In another topic we talk about the topic: non-violent communication
+
+* what we are feeling
+
+The big difference goal: learn to differentiate own feelings from interpretation, diagnoses, thoughts
+
+* Universal Needs
