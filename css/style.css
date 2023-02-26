@@ -2,7 +2,7 @@ body {
   max-width: 100%;
   position: relative;
   font-family: 'poppins', sans-serif;
-  background-image: url("../Images/website_background.jpg"), url("../Images/Home_background.png");
+  background-image: url("../Images/website_background.jpeg"), url("../Images/Home_background.jpeg");
   background-repeat: no-repeat, repeat;
   background-size: 100%;
 }
@@ -378,7 +378,7 @@ body {
 
 .home-page-title {
   /* border: 2px solid yellow; */
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -388,18 +388,18 @@ body {
 
 .web {
   max-width: 100%;
-  position:relative;
+  position: relative;
   top: 5vw;
   margin-left: 5vw;
   font-size: 7vw;
-  letter-spacing:1.5vw;
+  letter-spacing: 1.5vw;
   color: white;
   text-shadow: -4px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .development {
   max-width: 100%;
-  position:relative;
+  position: relative;
   top: 5vw;
   margin-left: 5vw;
   font-size: 5vw;
@@ -409,7 +409,7 @@ body {
 
 .journey {
   max-width: 100%;
-  position:relative;
+  position: relative;
   top: 5vw;
   margin-left: 5vw;
   font-size: 8vw;
