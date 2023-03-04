@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Responsive Web Design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Blog : Homepage</title>
+    <!-- Import Favicon -->
+    <link rel="icon" href="./Images/deo_icon.ico" type="image/x-icon" />
 
     <!-- IMPORT FONT AWESOME: -->
 
@@ -17,12 +17,17 @@
       rel="stylesheet"
     />
 
+    <!-- font awesome links -->
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+
     <!-- IMPORT CSS style  -->
 
     <link rel="stylesheet" href="./css/blog.css" />
 
-    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js"></script>
+    <title>Blog : Homepage</title>
   </head>
   <body>
     <nav class="navbar">
@@ -41,12 +46,203 @@
       </div>
     </header>
 
+    <!-- navigation section -->
+
+    <section>
+      <div class="nav_section">
+        <ul>
+          <li>
+            <a href="#the-beginning-of-a-journey">The beginning of a journey</a>
+          </li>
+          <li><a href="#the-beginning">The beginning</a></li>
+          <li>
+            <a href="#week-of-contradictions">Week of contradictions</a>
+
+            <ul>
+              <li>
+                <a href="#Node-js"
+                  >The <em><strong>Node.js</strong></em> installation</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#git">Git</a>
+            <ul>
+              <li>
+                <a href="#the-git-installation"
+                  >The <em><strong>Git</strong></em> installation</a
+                >
+              </li>
+              <li><a href="#the-git-version">The-git-version</a></li>
+              <li><a href="#the-git-config">The git config</a></li>
+              <li><a href="#the-git-init">The git init</a></li>
+              <li><a href="#the-git-status">The got status</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#staging-files">Staging files</a>
+
+            <ul>
+              <li><a href="#git-add-1-file">Git add a specific file</a></li>
+              <li><a href="#git-add-multi-file">Git add multiple files</a></li>
+              <li><a href="#git-add-all-file">Git add all the files</a></li>
+            </ul>
+          </li>
+          <li><a href="#making-commits">Making commits</a></li>
+          <li>
+            <a href="#branching">Branching</a>
+            <ul>
+              <li><a href="#merging-branches">Merging branches</a></li>
+              <li><a href="#git-marge">git merge "branch-name"</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#soft-skills-1"
+              >Soft Skills "Communication and feelings"</a
+            >
+          </li>
+          <li>
+            <a href="#the-biginning-of-learning">The beginning of learning</a>
+          </li>
+          <li>
+            <a href="#the-history-git">The history of GIT</a>
+            <ul>
+              <li><a href="#what-is-it">What is it?</a></li>
+              <li><a href="#how-does-it-work">How does it work?</a></li>
+              <li><a href="#commit-message">Commit Messages</a></li>
+              <li>
+                <a href="#who-are-you-writing"
+                  >Who are you writing these messages for</a
+                >
+              </li>
+              <li>
+                <a href="#what-should-you-write">What should you write?</a>
+              </li>
+              <li>
+                <a href="#example-bad-commit"
+                  >Example of a bad commit message</a
+                >
+              </li>
+              <li>
+                <a href="#example-god-commit"
+                  >Example of a good commit message</a
+                >
+              </li>
+              <li><a href="#deleting-files">Deleting files</a></li>
+              <li><a href="#configuring-git">Configuring GIT</a></li>
+              <li><a href="#bash">Bash</a></li>
+              <li><a href="#git-1">GIT</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#local-remote-repositories"
+              >Local and remote repositories</a
+            >
+          </li>
+          <li><a href="#https">HTTPS</a></li>
+          <li><a href="#ssh">SSH</a></li>
+          <li>
+            <a href="#working-team">Working in a Team</a>
+            <ul>
+              <li><a href="#git-commit">GIT commits</a></li>
+              <li><a href="#branches">Branches</a></li>
+              <li><a href="#why-use-branches">Why use branches?</a></li>
+              <li>
+                <a href="#working-with-branches">Working with branches</a>
+              </li>
+              <li>
+                <a href="#integrating-your-code"
+                  >Integrating your code back to main / master</a
+                >
+
+                <ol>
+                  <li><a href="#using-git-marge">Using git merge</a></li>
+                  <li>
+                    <a href="#using-pull-requests">Using Pull Requests</a>
+                  </li>
+                  <li>
+                    <a href="#why-use-pull-requests"
+                      >Why do we use pull requests?</a
+                    >
+                  </li>
+                </ol>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#web-standars">Web Standards</a></li>
+          <li><a href="#browers">Browsers</a></li>
+          <li><a href="#request-response-cycle">Request Response Cycle</a></li>
+          <li><a href="#html">HTML</a></li>
+          <li><a href="#html-version">HTML Versions</a></li>
+          <li><a href="#html-markup">HTML Markup</a></li>
+          <li><a href="#attributes">Attributes</a></li>
+          <li>
+            <a href="#shortcuts-for-visual-code"
+              >Shortcuts for Visual Studio Code</a
+            >
+          </li>
+          <li><a href="#css-intruction">CSS Introduction</a></li>
+          <li><a href="#styling">Styling</a></li>
+          <li><a href="#css-versions">CSS Versions</a></li>
+          <li>
+            <a href="#how-to-include-the-styles-on-page"
+              >How to include the styles on a page</a
+            >
+          </li>
+          <li>
+            <a href="#how-to-write-css-styles">How to write CSS styles</a>
+          </li>
+          <li>
+            <a href="#how-to-construct-a-style">How to construct a style</a>
+          </li>
+          <li>
+            <a href="#soft-skills-2">Soft Skills "Intercultural Competences"</a>
+          </li>
+          <li>
+            <a href="#classes-links-combinators-units"
+              >Classes, Links, Combinators and Units</a
+            >
+          </li>
+          <li><a href="#favicon">Favicon</a></li>
+          <li><a href="#css-links">CSS links</a></li>
+          <li><a href="#what-is-classes">What is Classes?</a></li>
+          <li><a href="#what-is-ids">What is IDs?</a></li>
+          <li><a href="#links-and-pseudo-classes">Link features</a></li>
+          <li><a href="#link-in-action">Link in action</a></li>
+          <li><a href="#image-link">IMAGE LINK</a></li>
+          <li><a href="#special-links">Special links</a></li>
+          <li><a href="#combinators">Combinators</a></li>
+          <li><a href="#descendant-selector">Descendant Selector</a></li>
+          <li><a href="#child-selector">Child Selector</a></li>
+          <li>
+            <a href="#adjacent-sibling-selector"
+              >Adjacent Sibling Selector (+)</a
+            >
+          </li>
+          <li>
+            <a href="#general-sibling-selector">General Sibling Selector (~)</a>
+          </li>
+          <li><a href="#pseudao-selectors">PSEUDO SELECTORS</a></li>
+          <li><a href="#css-units">CSS Units</a></li>
+          <li><a href="#dimensions-in-px">Dimensions set in Px</a></li>
+          <li><a href="#relative-units">Relative units</a></li>
+          <li>
+            <a href="#dimensions-in-vw">vh and vw (relative to the viewport)</a>
+          </li>
+          <li><a href="#dimensions-in-rem">rem and em ( Font-size )</a></li>
+        </ul>
+      </div>
+    </section>
+
     <!-- blog section -->
     <section class="blogs-section">
       <div class="blog-card">
         <!-- Post-1 -->
 
-        <h2 class="blog-title">Web development the beginning of a journey.</h2>
+        <h2 class="blog-title" id="the-beginning-of-a-journey">
+          Web development the beginning of a journey.
+        </h2>
         <img src="./Images/Blog_1.png" class="blog-image" alt="" />
         <div class="blog-overview">
           February 7, 2023 <br /><br />
@@ -76,7 +272,9 @@
 
         <!-- Post-2 -->
 
-        <h2 class="blog-title">Web developer the beginning!</h2>
+        <h2 class="blog-title" id="the-beginning">
+          Web developer the beginning!
+        </h2>
         <img src="./Images/Blog_2.png" class="blog-image" alt="" />
 
         <div class="blog-overview">
@@ -121,7 +319,9 @@
 
         <!-- Post-3 -->
 
-        <h2 class="blog-title">week of contradictions</h2>
+        <h2 class="blog-title" id="week-of-contradictions">
+          week of contradictions
+        </h2>
         <img src="./Images/Blog_3.png" class="blog-image" alt="" />
 
         <div class="blog-overview">
@@ -151,7 +351,8 @@
           the sake of my path in this course and the well-being of other
           colleagues ...
           <br /><br />
-          <br /><br /><strong>February 15, 2023</strong><br /><br />
+          <br /><br />
+          <p id="Node-js"><strong> February 15, 2023</strong><br /><br /></p>
           ,,, The day started strange and some people in the group started to
           feel the same frustration that I felt from the beginning.
           <br /><br />
@@ -204,7 +405,8 @@
           At the end we did an evaluation<br /><br />
           <br /><br /><strong>February 16, 2023</strong><br /><br />
           It was an interesting day dedicated to “Git”<br /><br />
-          <strong>What is Git?</strong><br /><br />
+          <p id="git"><strong>What is Git?</strong></p>
+          <br /><br />
           Git is a free and open source distributed version control system
           designed to handle everything from small to very large projects with
           speed and efficiency.<br /><br />
@@ -212,21 +414,23 @@
           for your use…
           <br /><br />
           <ul>
-            <li>sudo apt-get install git</li>
+            <li id="the-git-installation">sudo apt-get install git</li>
           </ul>
           <br /><br />
           After installing it, start your terminal and type the following
           command to verify that Git is ready to be used on your computer:
           <br /><br />
           <ul>
-            <li>git –version</li>
+            <li id="the-git-version">git –version</li>
           </ul>
           <br /><br />
           In your terminal, run the following commands to identify yourself with
           Git:
           <br /><br />
           <ul>
-            <li>git config --global user.name &quot;Your Name&quot;</li>
+            <li id="the-git-config">
+              git config --global user.name &quot;Your Name&quot;
+            </li>
             <li>git config --global user.email &quot;your@email.com&quot;</li>
           </ul>
           <br /><br />
@@ -234,40 +438,45 @@
           use your terminal
           <br /><br />
           <ul>
-            <li>git init</li>
+            <li id="the-git-init">git init</li>
           </ul>
           <br /><br />
           This is a command that is very often used when working with Git. It
           shows us which files have been changed, which files are tracked, etc.
           <br /><br />
           <ul>
-            <li>git status</li>
+            <li id="the-git-status">git status</li>
           </ul>
-          <br /><br /><strong>staging files</strong><br /><br />
+          <br /><br />
+          <p id="staging-files"><strong>staging files</strong></p>
+          <br /><br />
           From the project folder, we can use the git add command to add our
           files to the staging area, which allows them to be tracked. We can add
           a specific file to the staging area with the following command:
           <br /><br />
           <ul>
-            <li>git add file.js</li>
+            <li id="git-add-1-file">git add [filename]</li>
           </ul>
           <br /><br />o add multiple files, we can do this:<br /><br />
           <ul>
-            <li>git add file.js file2.js file3.js</li>
+            <li id="git-add-multi-file">
+              git add [filename.1] [filename.2] [filename.3]
+            </li>
           </ul>
           <br /><br />
           Instead of having to add the files individually, we can also add all
           the files inside the project folder to the staging area:
           <br /><br />
           <ul>
-            <li>git add .</li>
+            <li id="git-add-all-file">git add .</li>
           </ul>
           <br /><br />
           By default, this adds all the files and folders inside the project
           folder to the staging area, from where they are ready to be committed
           and tracked.
           <br /><br />
-          <strong>Making commits</strong><br /><br />
+          <p id="making-commits"><strong>Making commits</strong></p>
+          <br /><br />
           A commit is a snapshot of our code at a particular time, which we are
           saving to the commit history of our repository. After adding all the
           files that we want to track to the staging area with the
@@ -286,9 +495,16 @@
           The commit message should be a descriptive summary of the changes you
           are committing to the repository.
           <br /><br />
-          <strong>Branching</strong><br /><br />
-          Whenever we initialize a folder as a repository, there will be one
-          default branch (typically called master).
+          <p id="branching"><strong>Branching</strong></p>
+          <br /><br />
+          Git branching allows developers to diverge from the production version
+          of code to fix a bug or add a feature. Developers create branches to
+          work with a copy of the code without modifying the existing
+          version.<br /><br />
+          You create branches to isolate your code changes, which you test
+          before merging to the main branch Whenever we initialize a folder as a
+          repository, there will be one default branch (typically called
+          master).
           <br /><br />
           We can create a branch that is a copy of (usually) the main branch.
           Then you can add your changes to this branch without affecting the
@@ -296,7 +512,7 @@
           <br /><br /><strong>Creating a new branch</strong><br /><br />
           You can create a new branch using the following command:<br /><br />
           <ul>
-            <li>merging branches</li>
+            <li id="merging-branches">merging branches</li>
           </ul>
           <br /><br />
           Once we create a branch from master, they start living separate lives
@@ -310,11 +526,11 @@
           use this command:
           <br /><br />
           <ul>
-            <li>git merge "branch-name"</li>
+            <li id="git-marge">git merge "branch-name"</li>
           </ul>
           <br /><br />t was a good day of learning...<br /><br />
           <br /><br /><strong>February 17, 2023</strong><br /><br />
-          <em>soft skills day</em>
+          <p id="soft-skills-1"><em>soft skills day</em></p>
           <br /><br />
           Once again it was an interesting day where we focused on communication
           and feelings.<br /><br />
@@ -336,7 +552,9 @@
 
         <!-- Post-4 -->
 
-        <h2 class="blog-title">The beginning of learning</h2>
+        <h2 class="blog-title" id="the-biginning-of-learning">
+          The beginning of learning
+        </h2>
         <img src="./Images/Blog_4.png" class="blog-image" alt="" />
         <div class="blog-overview">
           <h2><em>February 20, 2023</em></h2>
@@ -350,7 +568,7 @@
             <strong>&quot;GitHub&quot;</strong>...
           </p>
           <br />
-          <h2>The history of GIT</h2>
+          <h2 id="the-history-git">The history of GIT</h2>
           <br />
           <p>
             Was created by Linus Torvalds to track changes to a project from
@@ -363,7 +581,7 @@
 
           <p>GIT is a way to travel through time for your project!</p>
           <br />
-          <h2>What is it?</h2>
+          <h2 id="what-is-it">What is it?</h2>
           <br />
           <p>GIT is a command line tool</p>
           <p>We use GIT to keep track of changes to files</p>
@@ -373,7 +591,7 @@
           </p>
           <br />
 
-          <h2>How does it work?</h2>
+          <h2 id="how-does-it-work">How does it work?</h2>
           <br />
 
           <p>
@@ -390,12 +608,14 @@
           </p>
           <p>You can write a message with each commit</p>
           <br />
-          <h2>Commit Messages</h2>
+          <h2 id="commit-message">Commit Messages</h2>
           <br />
           <p>Optional BUT</p>
           <br /><br />
 
-          <h2>Who are you writing these messages for?</h2>
+          <h2 id="who-are-you-writing">
+            Who are you writing these messages for?
+          </h2>
           <br />
 
           <p>NOT for the computer!</p>
@@ -407,7 +627,7 @@
             </li>
           </ul>
           <br />
-          <h2>What should you write?</h2>
+          <h2 id="what-should-you-write">What should you write?</h2>
           <br />
 
           <ul>
@@ -419,13 +639,13 @@
           </ul>
           <br />
 
-          <h2>Example of a bad commit message</h2>
+          <h2 id="example-bad-commit">Example of a bad commit message</h2>
           <br />
 
           <p>&quot;Minor changes&quot;</p>
           <br />
 
-          <h2>Example of a good commit message</h2>
+          <h2 id="example-god-commit">Example of a good commit message</h2>
           <br />
 
           <p>
@@ -433,7 +653,7 @@
           </p>
           <br />
 
-          <h2>Deleting files</h2>
+          <h2 id="deleting-files">Deleting files</h2>
           <br />
 
           <p>
@@ -448,39 +668,7 @@
           </blockquote>
           <br />
 
-          <h2>Bash</h2>
-          <br />
-          <p>
-            <strong>la</strong> / <strong>ll -a</strong> - shows hidden files
-          </p>
-          <p>Bash commands can be broken down into smaller parts</p>
-          <p>
-            git = command commit = subcommand -m = flag
-            <strong>git commit -m</strong>
-          </p>
-          <br />
-
-          <h2>GIT</h2>
-          <br />
-
-          <p><strong>git init</strong> - create new git repository</p>
-          <p><strong>git add</strong> - adds a file or files to a repository</p>
-          <p>
-            <strong>git add filename</strong> add a single file
-            <strong>git add .</strong> add EVERYTHING
-          </p>
-          <p><strong>git status</strong> - check current status</p>
-          <p>
-            <strong>git log</strong> - shows you the history of a repository
-          </p>
-          <p>
-            <strong>git checkout</strong> - allows you to change to a different
-            branch / commit hash
-          </p>
-          <p><strong>git rebase</strong> - very dangerous, but very powerful</p>
-          <br />
-
-          <h2>Configuring GIT</h2>
+          <h2 id="configuring-git">Configuring GIT</h2>
           <br />
 
           <p>Remember GitHub and GIT are separate entities</p>
@@ -508,7 +696,7 @@
           </p>
           <br />
 
-          <h2>Bash</h2>
+          <h2 id="bash">Bash</h2>
           <br />
           <p>
             <strong>la</strong> / <strong>ll -a</strong> - shows hidden files
@@ -520,7 +708,7 @@
           </p>
           <br />
 
-          <h2>GIT</h2>
+          <h2 id="git-1">GIT</h2>
           <br />
 
           <p><strong>git init</strong> - create new git repository</p>
@@ -576,7 +764,7 @@
           </ol>
           <br />
 
-          <h2>Local and remote repositories</h2>
+          <h2 id="local-remote-repositories">Local and remote repositories</h2>
           <br />
 
           <p>
@@ -599,7 +787,7 @@
           </p>
           <br />
 
-          <h3>HTTPS</h3>
+          <h3 id="https">HTTPS</h3>
           <br />
 
           <p>
@@ -609,7 +797,7 @@
           </p>
           <br />
 
-          <h3>SSH</h3>
+          <h3 id="ssh">SSH</h3>
           <br />
 
           <p>Secure Shell</p>
@@ -639,7 +827,7 @@
           <p>git config --global push.default current</p>
           <br />
 
-          <h2>Working in a Team</h2>
+          <h2 id="working-team">Working in a Team</h2>
           <br />
 
           <p>Example..... 2 people want to work together</p>
@@ -662,7 +850,7 @@
           </ol>
           <br />
 
-          <h2>GIT commits</h2>
+          <h2 id="git-commit">GIT commits</h2>
           <br />
 
           <p>
@@ -736,7 +924,7 @@
           </p>
           <br />
 
-          <h2>Branches</h2>
+          <h2 id="branches">Branches</h2>
           <br />
 
           <p>
@@ -750,7 +938,7 @@
           </p>
           <br />
 
-          <h2>Why use branches?</h2>
+          <h2 id="why-use-branches">Why use branches?</h2>
           <br />
 
           <blockquote>
@@ -775,7 +963,7 @@
           </ol>
           <br />
 
-          <h2>Working with branches</h2>
+          <h2 id="working-with-branches">Working with branches</h2>
           <br />
 
           <p><strong>git branch</strong> - lists all local branches</p>
@@ -785,6 +973,10 @@
           </p>
           <p>
             <strong>git checkout -b {branchname}</strong> - creates a new branch
+            with the name specified in the command
+          </p>
+          <p>
+            <strong>git branch --delete {branchname}</strong> - delete a branch
             with the name specified in the command
           </p>
           <br />
@@ -811,10 +1003,12 @@
           </ol>
           <br />
 
-          <h2>Integrating your code back to main / master</h2>
+          <h2 id="integrating-your-code">
+            Integrating your code back to main / master
+          </h2>
           <br />
 
-          <h3>using <strong>git merge</strong></h3>
+          <h3 id="using-git-marge">using <strong>git merge</strong></h3>
           <br />
           <ol>
             <li>Checkout to the branch you want to merge into</li>
@@ -827,7 +1021,7 @@
           </ol>
           <br />
 
-          <h3>Using Pull Requests</h3>
+          <h3 id="using-pull-requests">Using Pull Requests</h3>
           <br />
 
           <p>
@@ -836,7 +1030,7 @@
           </p>
           <br />
 
-          <h3>Why do we use pull requests?</h3>
+          <h3 id="why-use-pull-requests">Why do we use pull requests?</h3>
           <br />
 
           <ol>
@@ -882,7 +1076,7 @@
           </p>
           <br />
 
-          <h2>Web Standards</h2>
+          <h2 id="web-standars">Web Standards</h2>
           <br />
 
           <ul>
@@ -892,7 +1086,7 @@
           </ul>
           <br />
 
-          <h2>Browsers</h2>
+          <h2 id="browers">Browsers</h2>
           <br />
 
           <ul>
@@ -903,7 +1097,7 @@
           </ul>
           <br />
 
-          <h2>Request Response Cycle</h2>
+          <h2 id="request-response-cycle">Request Response Cycle</h2>
           <br />
 
           <ul>
@@ -911,14 +1105,14 @@
           </ul>
           <br />
 
-          <h2>HTML</h2>
+          <h2 id="html">HTML</h2>
           <br />
 
           <p>hyper text markup language</p>
           <p><strong>index.htm</strong> or <strong>index.html</strong></p>
           <br />
 
-          <h2>HTML Versions</h2>
+          <h2 id="html-version">HTML Versions</h2>
           <br />
 
           <ul>
@@ -927,7 +1121,7 @@
           </ul>
           <br />
 
-          <h2>HTML Markup</h2>
+          <h2 id="html-markup">HTML Markup</h2>
           <br />
 
           <p>2 types</p>
@@ -942,7 +1136,7 @@
           </ul>
           <br />
 
-          <h3>Attributes</h3>
+          <h3 id="attributes">Attributes</h3>
           <br />
 
           <p>Composed of 2 parts</p>
@@ -950,7 +1144,9 @@
           <p>src=&quot;logo.jpg&quot;</p>
           <br />
 
-          <h2>Shortcuts for Visual Studio Code</h2>
+          <h2 id="shortcuts-for-visual-code">
+            Shortcuts for Visual Studio Code
+          </h2>
           <br />
 
           <p><strong>!</strong> Loads boilerplate HTML</p>
@@ -960,13 +1156,13 @@
           </p>
           <br />
 
-          <h2>CSS Introduction</h2>
+          <h2 id="css-intruction">CSS Introduction</h2>
           <br />
 
           <p>Cascading Style Sheets</p>
           <br />
 
-          <h2>Styling</h2>
+          <h2 id="styling">Styling</h2>
           <br />
 
           <p>What if I don&#39;t like;</p>
@@ -982,7 +1178,7 @@
           <p>We can change all these things with CSS (styles)</p>
           <br />
 
-          <h2>CSS Versions</h2>
+          <h2 id="css-versions">CSS Versions</h2>
           <br />
 
           <ul>
@@ -995,7 +1191,9 @@
           </blockquote>
           <br />
 
-          <h2>How to include the styles on a page</h2>
+          <h2 id="how-to-include-the-styles-on-page">
+            How to include the styles on a page
+          </h2>
           <br />
 
           <ol>
@@ -1005,7 +1203,7 @@
           </ol>
           <br />
 
-          <h2>How to write CSS styles</h2>
+          <h2 id="how-to-write-css-styles">How to write CSS styles</h2>
           <br />
 
           <p>4 ways to target styling HTML content;</p>
@@ -1027,7 +1225,7 @@
           </ol>
           <br />
 
-          <h2>How to construct a style</h2>
+          <h2 id="how-to-construct-a-style">How to construct a style</h2>
           <br />
 
           <ul>
@@ -1057,7 +1255,7 @@
           <h2><em>February 24, 2023</em></h2>
           <br /><br />
 
-          <p>
+          <p id="soft-skills-2">
             Day dedicated to Soft Skills with the theme
             <em><strong>&quot;Intercultural Competences&quot;</strong></em>
           </p>
@@ -1107,8 +1305,709 @@
 
         <!-- Post-5 -->
 
-        <img src="" class="blog-image" alt="" />
+        <h2 class="blog-title" id="classes-links-combinators-units">
+          Classes, Links, Combinators and Units.
+        </h2>
+        <img src="./Images/Blog_5.png" class="blog-image" alt="" />
         <div class="blog-overview"></div>
+
+        <h2><em>February 27, 2023</em></h2>
+        <br /><br />
+        <p>
+          A new week will start with a new Teacher and this time apparently
+          permanent, I checked her corriculun on LinkedIn and it is impressive,
+          I confess that for a first impression it surprises for the positive
+          and with a didactic that pleases.
+        </p>
+        <br />
+
+        <p>We&#39;ve covered <strong>&quot;Classes and IDs&quot;</strong>...</p>
+        <br />
+        <p>
+          We start by talking about pages, the &quot;head&quot; section and the
+          elements it contains
+        </p>
+        <p>
+          To start we need make sure the starting page is called
+          <strong><em>index.html</em></strong> otherwise the server will not
+          recognize it and you will see a bunch of files and directories
+        </p>
+        <br />
+
+        <h2 id="favicon">Favicon</h2>
+        <br />
+
+        <p>We started by talking about the Favicon and its importance</p>
+        <ul>
+          <li>
+            <em>A favicon is a little icon that appears in the browser tab</em>
+          </li>
+        </ul>
+        <br />
+
+        <h2 id="css-links">CSS links</h2>
+        <br />
+
+        <p>external css (recommended) <strong>priority 3</strong></p>
+        <p>
+          <em
+            ><code
+              >&lt;link rel=&quot;stylesheet&quot;
+              href=&quot;css/styles.css&quot; /&gt;</code
+            ></em
+          >
+        </p>
+        <br />
+
+        <p>internal css <strong>priority 2</strong></p>
+        <ul>
+          <li>In order to add internal styles we use the style tag</li>
+        </ul>
+        <br />
+
+        <p>inline css <strong>(highest priority 1)</strong></p>
+        <ul>
+          <li>In order to add inline style we use the style ATTRIB</li>
+        </ul>
+        <p>
+          <em
+            ><code
+              >&lt;h1 style=&quot;background-color: lightblue&quot;&gt;Classes
+              and IDs&lt;/h1&gt;</code
+            ></em
+          >
+        </p>
+        <br />
+
+        <p>
+          We have seen how to style an element using the general selector (eg.
+          h1, p etc..) We can also select elments using <em>classes</em> and
+          <em>IDs</em>
+        </p>
+        <br />
+
+        <h2 id="what-is-classes">What is Classes?</h2>
+        <br />
+
+        <p>
+          The <strong><em>class</em></strong> attribute specifies one or more
+          class names for an element.
+        </p>
+        <p>
+          Classes are used by <em>CSS</em> and <em>JavaScript</em> to select and
+          access specific elements.
+        </p>
+        <p>
+          The class attribute can be used on any <strong>HTML element</strong>.
+        </p>
+        <p>
+          The class name is <strong><em>case sensitive</em></strong
+          >.
+        </p>
+        <p>Different HTML elements can point to the same class name.</p>
+        <p>
+          We can applying multiple classes to the same element In the example
+          below &quot;redBg&quot; and &quot;white&quot; are 2 different classes.
+        </p>
+        <p>We need to make sure you leave a space between them.</p>
+        <p>
+          <br />
+
+          *<code>
+            &lt;p&gt; class=&quot;redBg greenBg white&quot;&gt;Multiple
+            classes&lt;/p&gt;</code
+          >
+        </p>
+        <br />
+
+        <h2 id="what-is-ids">What is IDs?</h2>
+        <br />
+
+        <p>
+          The HTML <em>id</em> attribute is used to specify a
+          <strong><em>unique id for an HTML element</em></strong
+          >.
+        </p>
+        <p>
+          You cannot have more than one element with the same id in an HTML
+          document.
+        </p>
+        <p>
+          The id attribute specifies a unique id for an HTML element. The value
+          of the id attribute must be unique within the HTML document.
+        </p>
+        <p>
+          The id attribute is used to point to a
+          <em>specific style declaration</em> in a style sheet. It is also used
+          by <em>JavaScript</em> to access and manipulate the element with the
+          specific id.
+        </p>
+        <p>
+          The syntax for id is: write a hash character
+          <strong><em>(#)</em></strong
+          >, followed by an id name. Then, define the CSS properties within
+          curly braces {}.
+        </p>
+        <br />
+
+        <h2 id="february-28-2023"><em>February 28, 2023</em></h2>
+        <br />
+
+        <p>
+          …. The day started with a review of an exercise and then we moved on
+          to new content...
+        </p>
+        <br />
+
+        <h2 id="links-and-pseudo-classes">Links and pseudo classes</h2>
+        <br />
+
+        <p>
+          A website is made up by several pages. In order to jump from one page
+          to the other we use links
+        </p>
+        <br />
+
+        <h2 id="link-features">Link features</h2>
+        <br />
+
+        <ul>
+          <li>An unvisited link is blue and underlined</li>
+          <li>An visited link is underlined and purple</li>
+          <li>An active link is underlined and red</li>
+        </ul>
+        <br />
+
+        <h2 id="link-in-action">Link in action</h2>
+        <br />
+
+        <p>
+          To create a link use the &quot;a&quot; tag href is a very important
+          attribute. It describes the link destination
+        </p>
+        <ul>
+          <li>
+            INTERNAL LINK An internal link points to a page within your project
+          </li>
+        </ul>
+        <br />
+
+        <p>
+          <code
+            >&lt;p&gt;To go to the about page click &lt;a
+            href=&quot;aboutPage.html&quot;&gt; HERE &lt;/a&gt;&lt;/p&gt;</code
+          >
+        </p>
+        <br />
+
+        <ul>
+          <li>
+            EXTERNAL LINK Points you to a page located elsewhere.. outside of
+            your project/domain
+          </li>
+        </ul>
+        <br />
+
+        <p>
+          <code
+            >&lt;a href=&quot;https://www.google.com&quot;
+            target=&quot;_blank&quot;&gt;Google&lt;/a&gt;</code
+          >
+        </p>
+        <br />
+
+        <p>
+          MAKE SURE external links open in a new tab by using the TARGET
+          attribute
+        </p>
+        <br />
+
+        <h3 id="image-link">IMAGE LINK</h3>
+        <br />
+
+        <p>As the name says it creates a link in an image</p>
+        <p>
+          <em
+            ><code
+              >&lt;a href=&quot;https://www.clubcatusa.com/about/blog/&quot;
+              target=&quot;_blank&quot;&gt; &lt;img
+              src=&quot;images/cat.jpeg&quot; alt=&quot;&quot;
+              height=&quot;200&quot;&gt; &lt;/a&gt;</code
+            ></em
+          >
+        </p>
+        <br />
+
+        <h2 id="special-links">Special links</h2>
+        <br />
+
+        <p>This link will try to start a call</p>
+        <p>
+          <em
+            ><code
+              >&lt;p&gt; &lt;a href=&quot;tel:0175123123&quot;&gt;Call us at
+              01751244444&lt;/a&gt;&lt;/p&gt;</code
+            ></em
+          >
+        </p>
+        <br />
+
+        <p>This link will open a pdf file</p>
+        <p>
+          <em
+            ><code
+              >&lt;p&gt;&lt;a href=&quot;images/cat.jpeg&quot; download&gt;
+              Click here to download img &lt;/a&gt;&lt;/p&gt;</code
+            ></em
+          >
+        </p>
+        <br />
+
+        <p>
+          When we use the
+          <strong><em>&quot;download&quot;</em></strong> command, clicking on it
+          does not open the file but downloads automatically
+        </p>
+        <br />
+
+        <h2><em>March 1, 2023</em></h2>
+        <br />
+
+        <p>
+          ,,, Today we start with
+          <strong><em>&quot;Selectors and combinators&quot;</em></strong>
+        </p>
+        <br />
+
+        <p id="combinators">CSS <em>Combinators</em></p>
+        <br />
+
+        <p>
+          A combinator is something that explains the relationship between the
+          selectors.
+        </p>
+        <p>
+          A CSS selector can contain more than one simple selector. Between the
+          simple selectors, we can include a combinator.
+        </p>
+        <br />
+
+        <p>There are four different combinators in CSS:</p>
+        <ul>
+          <li>descendant selector (space)</li>
+          <li>child selector (&gt;)</li>
+          <li>adjacent sibling selector (+)</li>
+          <li>general sibling selector (~)</li>
+        </ul>
+        <br />
+
+        <h2 id="descendant-selector">Descendant Selector</h2>
+        <br />
+
+        <p>
+          The descendant selector matches all elements that are descendants of a
+          specified element.
+        </p>
+        <p>
+          The following example selects all <code>&lt;span&gt;</code> elements
+          inside <code>&lt;h2&gt;</code> elements:
+        </p>
+        <br />
+
+        <p>
+          <strong><em>HTML</em></strong>
+        </p>
+        <pre><code> `&lt;section&gt;
+    
+        &lt;h2&gt;
+            &lt;p&gt;This is paragraph &lt;span&gt;1&lt;/span&gt;&lt;/p&gt;
+        &lt;/h2&gt;
+        &lt;p&gt;this is paragraph 2&lt;/p&gt;
+        &lt;div&gt;
+            &lt;p&gt;this is paragraph 3&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;`
+    </code></pre>
+        <p>
+          <strong><em>CSS</em></strong>
+        </p>
+        <br />
+
+        <p><em>DESCENDANT (space)</em></p>
+        <pre><code>`h2 span { /_ selects a span inside an h2 (loose) _/
+    
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: white;
+    
+    }`
+    </code></pre>
+        <br />
+
+        <h2 id="child-selector">Child Selector (&gt;)</h2>
+        <br />
+
+        <p>
+          The child selector selects all elements that are the children of a
+          specified element.
+        </p>
+        <p>
+          The following example selects all <code>&lt;p&gt;</code> elements that
+          are children of a <code>&lt;section&gt;</code> element:
+        </p>
+        <br />
+
+        <p>
+          <strong><em>HTML</em></strong>
+        </p>
+        <pre><code> `&lt;section&gt;
+    
+        &lt;h2&gt;
+            &lt;p&gt;This is paragraph &lt;span&gt;1&lt;/span&gt;&lt;/p&gt;
+        &lt;/h2&gt;
+        &lt;p&gt;this is paragraph 2&lt;/p&gt;
+        &lt;div&gt;
+            &lt;p&gt;this is paragraph 3&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;`
+    </code></pre>
+        <p>
+          <strong><em>CSS</em></strong>
+        </p>
+        <br />
+
+        <pre><code>`section &gt; p { /* selects a p that is an immediate child of section */
+    
+    border: 5px dashed green;
+    }`
+    </code></pre>
+        <br />
+
+        <h2 id="adjacent-sibling-selector">Adjacent Sibling Selector (+)</h2>
+        <br />
+
+        <p>
+          The adjacent sibling selector is used to select an element that is
+          directly after another specific element.
+        </p>
+        <p>
+          Sibling elements must have the same parent element, and
+          &quot;adjacent&quot; means &quot;immediately following&quot;.
+        </p>
+        <br />
+
+        <p>
+          The following example selects the first <code>&lt;p&gt;</code> element
+          that are placed immediately after <code>&lt;div&gt;</code> elements:
+        </p>
+        <br />
+
+        <p>
+          <strong><em>HTML</em></strong>
+        </p>
+        <pre><code>`&lt;div&gt;I am Div&lt;/div&gt;
+    
+    &lt;p&gt;I am the first p following a div&lt;/p&gt;
+    &lt;p&gt;I am the second p following a div &lt;/p&gt;`
+    </code></pre>
+        <p>
+          <br />
+
+          <strong><em>CSS</em></strong>
+        </p>
+        <pre><code>`div + p { /* The FIRST p coming IMMEDIATELY AFTER a div will be selected */
+    
+    background-color: orange;
+    }`
+    </code></pre>
+        <br />
+
+        <h2 id="general-sibling-selector">General Sibling Selector (~)</h2>
+        <br />
+
+        <p>
+          The general sibling selector selects all elements that are next
+          siblings of a specified element.
+        </p>
+        <p>
+          The following example selects all <code>&lt;purple&gt;</code> class,
+          elements that are next siblings of <code>&lt;div&gt;</code> elements:
+        </p>
+        <br />
+
+        <p>
+          <strong><em>HTML</em></strong>
+        </p>
+        <pre><code>`&lt;div class=&quot;purple&quot;&gt;All ul after me will have a purple background&lt;/div&gt;
+    
+    &lt;ul&gt;
+        &lt;li&gt;item 1&lt;/li&gt;
+        &lt;li&gt;item 2&lt;/li&gt;
+        &lt;li&gt;item 3&lt;/li&gt;
+        &lt;li&gt;item 4&lt;/li&gt;
+    &lt;/ul&gt;`
+    </code></pre>
+        <p>
+          <br />
+
+          <strong><em>CSS</em></strong>
+        </p>
+        <pre><code>`.purple ~ ul { /* All ULs coming after .purple will be selected */
+    
+     background-color: purple;
+    }`
+    </code></pre>
+        <br />
+
+        <h2 id="pseudo-selectors">PSEUDO SELECTORS</h2>
+        <br />
+
+        <ul>
+          <li>first-child - targets the first child of an element</li>
+          <li>lst-child - targets the last child of an element</li>
+          <li>
+            nth-child(n/even/odd) - target each element that is the nth child of
+            its parent
+          </li>
+        </ul>
+        <br />
+
+        <p>
+          <strong><em>HTML</em></strong>
+        </p>
+        <pre><code>`&lt;ol class=&quot;pseudoSelectors&quot;&gt;
+        &lt;li&gt;The first paragraph&lt;/li&gt;
+        &lt;li&gt;The second paragraph&lt;/li&gt;
+        &lt;li&gt;The third paragraph&lt;/li&gt;
+        &lt;li&gt;The fourth paragraph&lt;/li&gt;
+    &lt;/ol&gt;
+    
+    &lt;ol class=&quot;pseudoSelectors2&quot;&gt;
+        &lt;li&gt;The first paragraph&lt;/li&gt;
+        &lt;li&gt;The second paragraph&lt;/li&gt;
+        &lt;li&gt;The third paragraph&lt;/li&gt;
+        &lt;li&gt;The fourth paragraph&lt;/li&gt;
+    &lt;/ol&gt;`
+    </code></pre>
+        <p>
+          <br />
+
+          <strong><em>CSS</em></strong>
+        </p>
+        <pre><code>`.pseudoSelectors li:first-child {
+    background-color: lightgreen;
+    }
+    
+    .pseudoSelectors li:last-child {
+    background-color: midnightblue;
+    color: white;
+    }
+    
+    .pseudoSelectors li:nth-child(2) {
+    background-color: teal;
+    }
+    
+    
+    .pseudoSelectors2 li:nth-child(even) {
+    background-color: purple;
+    color:white;
+    }
+    
+    .pseudoSelectors2 li:nth-child(odd) {
+    background-color: violet;
+    }`
+    </code></pre>
+        <br />
+
+        <h2><em>March 2, 2023</em></h2>
+        <br />
+
+        <p id="css-units">
+          It was a day dedicated to <em><strong>Css Units</strong></em>
+        </p>
+        <br />
+
+        <p>
+          Css units are important for setting dimensions (height, width, margin
+          etc..)
+        </p>
+        <br />
+        <p>CSS has several different units for expressing a length.</p>
+        <p>
+          <br />
+          Many CSS properties take <strong>&quot;length&quot;</strong> values,
+          such as <em>width</em>, <em>margin</em>, <em>padding</em>,
+          <em>font-size</em>, etc.
+        </p>
+        <br />
+        <p>
+          Length is a number followed by a length unit, such as 10px, 2em, etc.
+        </p>
+        <br />
+        <p>
+          <strong>Note:</strong> A whitespace cannot appear between the number
+          and the unit. However, if the value is <em><strong>0</strong></em
+          >, the unit can be omitted.
+        </p>
+        <p>For some CSS properties, negative lengths are allowed.</p>
+        <br />
+        <p>There are two types of length units: absolute and relative.</p>
+        <br />
+
+        <h2>Absolute unit (Pixel) - keeps the same size at all times</h2>
+        <br />
+
+        <em><strong> Pixel </strong></em><br />
+
+        <div id="dimensions-in-px">Dimensions set in Px</div>
+        <br />
+
+        <em><strong> Pixels pros and cons </strong></em>
+        <ul>
+          <li>
+            px
+            <ul>
+              <li>
+                Pixels will always look the same across all devices (mobile
+                desktop, tablet)
+              </li>
+              <li>PRO: easy to work with</li>
+              <li>CONS: Not good for responsive design</li>
+              <li>CONS: Px override user's preference (browser)</li>
+              <li>TIP: Never set font-size in PX</li>
+              <li>
+                USAGE: px for minor adjustments (shadows, borders and specific
+                things)
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2 id="relative-units">Relative units</h2>
+        <br />
+
+        <h3>Percentage % (relative to its immediate parent)</h3>
+
+        <div>25%</div>
+        <br />
+
+        <em
+          ><strong>
+            This box is less wide because it's 25% of the parent width ( 150px )
+          </strong></em
+        ><br />
+
+        <div>
+          <div>25%</div>
+        </div>
+        <br />
+
+        <ul>
+          <li>
+            %
+            <ul>
+              <li>
+                relative to the parent WIDTH. Height in % will not work UNLESS
+                the parent has a hight set in px.
+              </li>
+              <li>PRO - useful for building layouts that shrink and grow</li>
+              <li>
+                CONS - You might have excessive shrinkage so use it in combo
+                with max-width and min-width
+              </li>
+              <li>USAGE - Large layout concerns</li>
+            </ul>
+          </li>
+        </ul>
+        <br />
+
+        <em
+          ><strong>
+            viewport height and viewport width (entire screen size - scrollbar
+            included )</strong
+          ></em
+        ><br />
+
+        <h3 id="dimensions-in-vw">vh and vw (relative to the viewport)</h3>
+        <br />
+
+        <div>25vw</div>
+        <em
+          ><strong> <div>25vh</div> </strong></em
+        >
+
+        <div>
+          <div>25vw</div>
+        </div>
+
+        <ul>
+          <li>
+            vh and vw
+            <ul>
+              <li>Relative to the height/width of the viewport</li>
+              <li>PRO - Useful to fill up entire hight/width</li>
+              <li>CONS - Mostly only vh makes sense</li>
+              <li>USAGE - to achieve full height</li>
+            </ul>
+          </li>
+        </ul>
+        <br />
+
+        <em
+          ><strong>
+            When it comes to font-size you want to use rem and em
+          </strong></em
+        ><br />
+
+        <h3 id="dimensions-in-rem">rem and em ( Font-size )</h3>
+        <br />
+
+        <div>2rem</div>
+        <div>2em</div>
+        <br />
+
+        <h3>Wrapping parent with specific font-size</h3>
+        <br />
+
+        <div>
+          <div>rem</div>
+          <div>em</div>
+        </div>
+
+        <ul>
+          <li>
+            rem - (root em)
+            <ul>
+              <li>Relative to font size of root element (html)</li>
+              <li>PRO - handles nested elements properly</li>
+              <li>
+                CONS - may require some calculations when translating to PX
+              </li>
+              <li>USAGE: font size, margins, paddings</li>
+            </ul>
+          </li>
+          <li>
+            Em
+            <ul>
+              <li>Relative to font size immediate parent</li>
+              <li>PRO - it is scalable</li>
+              <li>CONS - avoid nesting or things can get out of hand</li>
+              <li>USAGE: font size, margins, paddings</li>
+            </ul>
+          </li>
+        </ul>
+        <br />
+        <p>
+          <strong>"em"</strong> is a bit special and we have to bear in mind
+          that the values are relative to the font-size of element
+          <strong>(2em means 2 times more the size of the corrent font)</strong>
+        </p><br>
+
+        <h1 id="march-3-2023"><em>March 3, 2023</em></h1>
+        <br />
+
+        <p>Free day</p>
       </div>
     </section>
 

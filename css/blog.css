@@ -1,6 +1,8 @@
+/* reset ALL style in html */
+
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
 }
 
@@ -18,12 +20,12 @@ body {
 
 .navbar {
     width: 100%;
-    height: 4vw;
+    height: 2.5rem;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5vw;
+    padding: 0 3.125rem;
     background: #000000;
     z-index: 9;
 }
@@ -34,7 +36,7 @@ body {
 }
 
 .link {
-    margin-top: 1vw;
+    margin-top: .625rem;
     text-decoration: none;
     text-transform: capitalize;
     color: #da3107;
@@ -43,7 +45,7 @@ body {
 .header {
     max-width: 100%;
     position: relative;
-    height: 50vw;
+    height: 31.25rem;
     background: url(../Images/blog_wallpaper.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -52,8 +54,8 @@ body {
 }
 
 .content {
-    text-align: center;
-    font-size: 10vw;
+    margin-left: 6rem;
+    font-size: 12rem;
 }
 
 .heading {
@@ -61,29 +63,59 @@ body {
     text-transform: capitalize;
     font-size: 6vw;
     line-height: 8vw;
-    margin-bottom: 6vw;
+    /* margin-bottom: 6vw; */
 }
 
 .heading .small {
-
+    padding-top: 7.5rem;
     display: block;
+
     font-size: 2.5vw;
 }
 
 .heading .no-fill {
     font-style: italic;
     color: transparent;
-    -webkit-text-stroke: 0.1vw #fff;
+    -webkit-text-stroke: 0.2vw #fff;
 }
+
+.nav_section {
+    /* max-width: 100%; */
+    padding: 6rem;
+    /* display: block;
+    text-align: justify; */
+}
+
+
+
+/* links styling */
+
+a:link {
+    color: #3914EE;
+}
+
+a:visited {
+    color: #76339A;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active { click n hold in order to see it properly
+    color: #3914EE
+    text-decoration: none;
+}
+
 
 
 
 /* blog section */
 
 .blogs-section {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     max-width: 100%;
-    padding: 5vw 5vw;
+    padding:6rem;
     display: block;
     text-align: justify;
     /* font-size: 1vw; */
@@ -94,29 +126,27 @@ body {
     background: #1b1b1b;
     color: #fff;
 }
+
 /* post 1 */
 
 
 .blog-image {
     max-width: 100%;
     object-fit: cover;
-    border-radius: 1vw;
-    margin-bottom: 1vw;
+    border-radius: 1.188rem;
+    margin-bottom: 1.188rem;
 }
 
 .blog-title {
-    font-size: 6vw;
+    font-size: 2.375rem;
     font-style: bold;
     text-align: center;
-    margin: 2vw;
+    margin: 2.375rem;
 }
 
 
 
 .blog-overview {
-    margin: 5vw 0 15vw;
+    margin: 6rem 0 18rem;
     line-height: auto;
 }
-
-
-
