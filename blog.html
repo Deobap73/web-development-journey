@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Responsive Web Design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Blog : Homepage</title>
+    <!-- Import Favicon -->
+    <link rel="icon" href="./Images/deo_icon.ico" type="image/x-icon" />
 
     <!-- IMPORT FONT AWESOME: -->
 
@@ -17,12 +17,17 @@
       rel="stylesheet"
     />
 
+    <!-- font awesome links -->
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+
     <!-- IMPORT CSS style  -->
 
     <link rel="stylesheet" href="./css/blog.css" />
 
-    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js"></script>
+    <title>Blog : Homepage</title>
   </head>
   <body>
     <nav class="navbar">
@@ -41,12 +46,157 @@
       </div>
     </header>
 
+    <!-- navigation section -->
+
+    <section>
+      <div class="nav_section">
+        <ul>
+          <li>
+            <a href="#the-beginning-of-a-journey">The beginning of a journey</a>
+          </li>
+          <li><a href="#the-beginning">The beginning</a></li>
+          <li>
+            <a href="#week-of-contradictions">Week of contradictions</a>
+
+            <ul>
+              <li>
+                <a href="#Node-js"
+                  >The <em><strong>Node.js</strong></em> installation</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#git">Git</a>
+            <ul>
+              <li>
+                <a href="#the-git-installation"
+                  >The <em><strong>Git</strong></em> installation</a
+                >
+              </li>
+              <li><a href="#the-git-version">The-git-version</a></li>
+              <li><a href="#the-git-config">The git config</a></li>
+              <li><a href="#the-git-init">The git init</a></li>
+              <li><a href="#the-git-status">The got status</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#staging-files">Staging files</a>
+
+            <ul>
+              <li><a href="#git-add-1-file">Git add a specific file</a></li>
+              <li><a href="#git-add-multi-file">Git add multiple files</a></li>
+              <li><a href="#git-add-all-file">Git add all the files</a></li>
+            </ul>
+          </li>
+          <li><a href="#making-commits">Making commits</a></li>
+          <li>
+            <a href="#branching">Branching</a>
+            <ul>
+              <li><a href="#merging-branches">Merging branches</a></li>
+              <li><a href="#git-marge">git merge "branch-name"</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#soft-skills-1"
+              >Soft Skills "Communication and feelings"</a
+            >
+          </li>
+          <li>
+            <a href="#the-biginning-of-learning">The beginning of learning</a>
+          </li>
+          <li>
+            <a href="#the-history-git">The history of GIT</a>
+            <ul>
+              <li><a href="#what-is-it">What is it?</a></li>
+              <li><a href="#how-does-it-work">How does it work?</a></li>
+              <li><a href="#commit-message">Commit Messages</a></li>
+              <li>
+                <a href="#who-are-you-writing"
+                  >Who are you writing these messages for</a
+                >
+              </li>
+              <li>
+                <a href="#what-should-you-write">What should you write?</a>
+              </li>
+              <li>
+                <a href="#example-bad-commit"
+                  >Example of a bad commit message</a
+                >
+              </li>
+              <li>
+                <a href="#example-god-commit"
+                  >Example of a good commit message</a
+                >
+              </li>
+              <li><a href="#deleting-files">Deleting files</a></li>
+              <li><a href="#configuring-git">Configuring GIT</a></li>
+              <li><a href="#bash">Bash</a></li>
+              <li><a href="#git-1">GIT</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#local-remote-repositories"
+              >Local and remote repositories</a
+            >
+          </li>
+          <li><a href="#https">HTTPS</a></li>
+          <li><a href="#ssh">SSH</a></li>
+          <li>
+            <a href="#working-team">Working in a Team</a>
+            <ul>
+              <li> <a href="#git-commit">GIT commits</a> </li>
+              <li> <a href="#branches">Branches</a> </li>
+              <li> <a href="#why-use-branches">Why use branches?</a> </li>
+              <li> <a href="#working-with-branches">Working with branches</a> </li>
+              <li> <a href="#integrating-your-code">Integrating your code back to main / master</a>
+                
+                <ol>
+                  <li> <a href="#using-git-marge">Using git merge</a> </li>
+                  <li> <a href="#using-pull-requests">Using Pull Requests</a> </li>
+                  <li> <a href="#why-use-pull-requests">Why do we use pull requests?</a> </li>
+                </ol>
+              </li>
+            </ul>
+          </li>
+          <li> <a href="#web-standars">Web Standards</a> </li>
+          <li> <a href="#browers">Browsers</a> </li>
+          <li> <a href="#request-response-cycle">Request Response Cycle</a> </li>
+          <li> <a href="#html">HTML</a> </li>
+          <li> <a href="#html-version">HTML Versions</a> </li>
+          <li> <a href="#html-markup">HTML Markup</a> </li>
+          <li> <a href="#attributes">Attributes</a> </li>
+          <li> <a href="#shortcuts-for-visual-code">Shortcuts for Visual Studio Code</a> </li>
+          <li> <a href="#css-intruction">CSS Introduction</a> </li>
+          <li> <a href="#styling">Styling</a> </li>
+          <li> <a href="#css-versions">CSS Versions</a> </li>
+          <li> <a href="#how-to-include-the-styles-on-page">How to include the styles on a page</a> </li>
+          <li> <a href="#how-to-write-css-styles">How to write CSS styles</a> </li>
+          <li> <a href="#how-to-construct-a-style">How to construct a style</a> </li>
+          <li> <a href="#soft-skills-2">Soft Skills "Intercultural Competences"</a> </li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+
     <!-- blog section -->
     <section class="blogs-section">
       <div class="blog-card">
         <!-- Post-1 -->
 
-        <h2 class="blog-title">Web development the beginning of a journey.</h2>
+        <h2 class="blog-title" id="the-beginning-of-a-journey">
+          Web development the beginning of a journey.
+        </h2>
         <img src="./Images/Blog_1.png" class="blog-image" alt="" />
         <div class="blog-overview">
           February 7, 2023 <br /><br />
@@ -76,7 +226,9 @@
 
         <!-- Post-2 -->
 
-        <h2 class="blog-title">Web developer the beginning!</h2>
+        <h2 class="blog-title" id="the-beginning">
+          Web developer the beginning!
+        </h2>
         <img src="./Images/Blog_2.png" class="blog-image" alt="" />
 
         <div class="blog-overview">
@@ -121,7 +273,9 @@
 
         <!-- Post-3 -->
 
-        <h2 class="blog-title">week of contradictions</h2>
+        <h2 class="blog-title" id="week-of-contradictions">
+          week of contradictions
+        </h2>
         <img src="./Images/Blog_3.png" class="blog-image" alt="" />
 
         <div class="blog-overview">
@@ -151,7 +305,8 @@
           the sake of my path in this course and the well-being of other
           colleagues ...
           <br /><br />
-          <br /><br /><strong>February 15, 2023</strong><br /><br />
+          <br /><br />
+          <p id="Node-js"><strong> February 15, 2023</strong><br /><br /></p>
           ,,, The day started strange and some people in the group started to
           feel the same frustration that I felt from the beginning.
           <br /><br />
@@ -204,7 +359,8 @@
           At the end we did an evaluation<br /><br />
           <br /><br /><strong>February 16, 2023</strong><br /><br />
           It was an interesting day dedicated to “Git”<br /><br />
-          <strong>What is Git?</strong><br /><br />
+          <p id="git"><strong>What is Git?</strong></p>
+          <br /><br />
           Git is a free and open source distributed version control system
           designed to handle everything from small to very large projects with
           speed and efficiency.<br /><br />
@@ -212,21 +368,21 @@
           for your use…
           <br /><br />
           <ul>
-            <li>sudo apt-get install git</li>
+            <li id="the-git-installation">sudo apt-get install git</li>
           </ul>
           <br /><br />
           After installing it, start your terminal and type the following
           command to verify that Git is ready to be used on your computer:
           <br /><br />
           <ul>
-            <li>git –version</li>
+            <li id="the-git-version">git –version</li>
           </ul>
           <br /><br />
           In your terminal, run the following commands to identify yourself with
           Git:
           <br /><br />
           <ul>
-            <li>git config --global user.name &quot;Your Name&quot;</li>
+            <li id="the-git-config">git config --global user.name &quot;Your Name&quot;</li>
             <li>git config --global user.email &quot;your@email.com&quot;</li>
           </ul>
           <br /><br />
@@ -234,40 +390,40 @@
           use your terminal
           <br /><br />
           <ul>
-            <li>git init</li>
+            <li id="the-git-init">git init</li>
           </ul>
           <br /><br />
           This is a command that is very often used when working with Git. It
           shows us which files have been changed, which files are tracked, etc.
           <br /><br />
           <ul>
-            <li>git status</li>
+            <li id="the-git-status">git status</li>
           </ul>
-          <br /><br /><strong>staging files</strong><br /><br />
+          <br /><br /><p id="staging-files"><strong>staging files</strong></p><br /><br />
           From the project folder, we can use the git add command to add our
           files to the staging area, which allows them to be tracked. We can add
           a specific file to the staging area with the following command:
           <br /><br />
           <ul>
-            <li>git add file.js</li>
+            <li id="git-add-1-file">git add [filename]</li>
           </ul>
           <br /><br />o add multiple files, we can do this:<br /><br />
           <ul>
-            <li>git add file.js file2.js file3.js</li>
+            <li id="git-add-multi-file">git add [filename.1] [filename.2] [filename.3]</li>
           </ul>
           <br /><br />
           Instead of having to add the files individually, we can also add all
           the files inside the project folder to the staging area:
           <br /><br />
           <ul>
-            <li>git add .</li>
+            <li id="git-add-all-file">git add .</li>
           </ul>
           <br /><br />
           By default, this adds all the files and folders inside the project
           folder to the staging area, from where they are ready to be committed
           and tracked.
           <br /><br />
-          <strong>Making commits</strong><br /><br />
+          <p id="making-commits"><strong>Making commits</strong></p><br /><br />
           A commit is a snapshot of our code at a particular time, which we are
           saving to the commit history of our repository. After adding all the
           files that we want to track to the staging area with the
@@ -286,9 +442,15 @@
           The commit message should be a descriptive summary of the changes you
           are committing to the repository.
           <br /><br />
-          <strong>Branching</strong><br /><br />
-          Whenever we initialize a folder as a repository, there will be one
-          default branch (typically called master).
+          <p id="branching"><strong>Branching</strong></p><br /><br />
+          Git branching allows developers to diverge from the production version
+          of code to fix a bug or add a feature. Developers create branches to
+          work with a copy of the code without modifying the existing
+          version.<br /><br />
+          You create branches to isolate your code changes, which you test
+          before merging to the main branch Whenever we initialize a folder as a
+          repository, there will be one default branch (typically called
+          master).
           <br /><br />
           We can create a branch that is a copy of (usually) the main branch.
           Then you can add your changes to this branch without affecting the
@@ -296,7 +458,7 @@
           <br /><br /><strong>Creating a new branch</strong><br /><br />
           You can create a new branch using the following command:<br /><br />
           <ul>
-            <li>merging branches</li>
+            <li id="merging-branches">merging branches</li>
           </ul>
           <br /><br />
           Once we create a branch from master, they start living separate lives
@@ -310,11 +472,11 @@
           use this command:
           <br /><br />
           <ul>
-            <li>git merge "branch-name"</li>
+            <li id="git-marge">git merge "branch-name"</li>
           </ul>
           <br /><br />t was a good day of learning...<br /><br />
           <br /><br /><strong>February 17, 2023</strong><br /><br />
-          <em>soft skills day</em>
+          <p id="soft-skills-1"><em>soft skills day</em></p>
           <br /><br />
           Once again it was an interesting day where we focused on communication
           and feelings.<br /><br />
@@ -336,7 +498,7 @@
 
         <!-- Post-4 -->
 
-        <h2 class="blog-title">The beginning of learning</h2>
+        <h2 class="blog-title" id="the-biginning-of-learning">The beginning of learning</h2>
         <img src="./Images/Blog_4.png" class="blog-image" alt="" />
         <div class="blog-overview">
           <h2><em>February 20, 2023</em></h2>
@@ -350,7 +512,7 @@
             <strong>&quot;GitHub&quot;</strong>...
           </p>
           <br />
-          <h2>The history of GIT</h2>
+          <h2 id="the-history-git">The history of GIT</h2>
           <br />
           <p>
             Was created by Linus Torvalds to track changes to a project from
@@ -363,7 +525,7 @@
 
           <p>GIT is a way to travel through time for your project!</p>
           <br />
-          <h2>What is it?</h2>
+          <h2 id="what-is-it">What is it?</h2>
           <br />
           <p>GIT is a command line tool</p>
           <p>We use GIT to keep track of changes to files</p>
@@ -373,7 +535,7 @@
           </p>
           <br />
 
-          <h2>How does it work?</h2>
+          <h2 id="how-does-it-work">How does it work?</h2>
           <br />
 
           <p>
@@ -390,12 +552,12 @@
           </p>
           <p>You can write a message with each commit</p>
           <br />
-          <h2>Commit Messages</h2>
+          <h2 id="commit-message">Commit Messages</h2>
           <br />
           <p>Optional BUT</p>
           <br /><br />
 
-          <h2>Who are you writing these messages for?</h2>
+          <h2 id="who-are-you-writing">Who are you writing these messages for?</h2>
           <br />
 
           <p>NOT for the computer!</p>
@@ -407,7 +569,7 @@
             </li>
           </ul>
           <br />
-          <h2>What should you write?</h2>
+          <h2 id="what-should-you-write">What should you write?</h2>
           <br />
 
           <ul>
@@ -419,13 +581,13 @@
           </ul>
           <br />
 
-          <h2>Example of a bad commit message</h2>
+          <h2 id="example-bad-commit">Example of a bad commit message</h2>
           <br />
 
           <p>&quot;Minor changes&quot;</p>
           <br />
 
-          <h2>Example of a good commit message</h2>
+          <h2 id="example-god-commit">Example of a good commit message</h2>
           <br />
 
           <p>
@@ -433,7 +595,7 @@
           </p>
           <br />
 
-          <h2>Deleting files</h2>
+          <h2 id="deleting-files">Deleting files</h2>
           <br />
 
           <p>
@@ -448,39 +610,7 @@
           </blockquote>
           <br />
 
-          <h2>Bash</h2>
-          <br />
-          <p>
-            <strong>la</strong> / <strong>ll -a</strong> - shows hidden files
-          </p>
-          <p>Bash commands can be broken down into smaller parts</p>
-          <p>
-            git = command commit = subcommand -m = flag
-            <strong>git commit -m</strong>
-          </p>
-          <br />
-
-          <h2>GIT</h2>
-          <br />
-
-          <p><strong>git init</strong> - create new git repository</p>
-          <p><strong>git add</strong> - adds a file or files to a repository</p>
-          <p>
-            <strong>git add filename</strong> add a single file
-            <strong>git add .</strong> add EVERYTHING
-          </p>
-          <p><strong>git status</strong> - check current status</p>
-          <p>
-            <strong>git log</strong> - shows you the history of a repository
-          </p>
-          <p>
-            <strong>git checkout</strong> - allows you to change to a different
-            branch / commit hash
-          </p>
-          <p><strong>git rebase</strong> - very dangerous, but very powerful</p>
-          <br />
-
-          <h2>Configuring GIT</h2>
+          <h2 id="configuring-git">Configuring GIT</h2>
           <br />
 
           <p>Remember GitHub and GIT are separate entities</p>
@@ -508,7 +638,7 @@
           </p>
           <br />
 
-          <h2>Bash</h2>
+          <h2 id="bash">Bash</h2>
           <br />
           <p>
             <strong>la</strong> / <strong>ll -a</strong> - shows hidden files
@@ -520,7 +650,7 @@
           </p>
           <br />
 
-          <h2>GIT</h2>
+          <h2 id="git-1">GIT</h2>
           <br />
 
           <p><strong>git init</strong> - create new git repository</p>
@@ -576,7 +706,7 @@
           </ol>
           <br />
 
-          <h2>Local and remote repositories</h2>
+          <h2 id="local-remote-repositories">Local and remote repositories</h2>
           <br />
 
           <p>
@@ -599,7 +729,7 @@
           </p>
           <br />
 
-          <h3>HTTPS</h3>
+          <h3 id="https">HTTPS</h3>
           <br />
 
           <p>
@@ -609,7 +739,7 @@
           </p>
           <br />
 
-          <h3>SSH</h3>
+          <h3 id="ssh">SSH</h3>
           <br />
 
           <p>Secure Shell</p>
@@ -639,7 +769,7 @@
           <p>git config --global push.default current</p>
           <br />
 
-          <h2>Working in a Team</h2>
+          <h2 id="working-team">Working in a Team</h2>
           <br />
 
           <p>Example..... 2 people want to work together</p>
@@ -662,7 +792,7 @@
           </ol>
           <br />
 
-          <h2>GIT commits</h2>
+          <h2 id="git-commit">GIT commits</h2>
           <br />
 
           <p>
@@ -736,7 +866,7 @@
           </p>
           <br />
 
-          <h2>Branches</h2>
+          <h2 id="branches">Branches</h2>
           <br />
 
           <p>
@@ -750,7 +880,7 @@
           </p>
           <br />
 
-          <h2>Why use branches?</h2>
+          <h2 id="why-use-branches">Why use branches?</h2>
           <br />
 
           <blockquote>
@@ -775,7 +905,7 @@
           </ol>
           <br />
 
-          <h2>Working with branches</h2>
+          <h2 id="working-with-branches">Working with branches</h2>
           <br />
 
           <p><strong>git branch</strong> - lists all local branches</p>
@@ -811,10 +941,10 @@
           </ol>
           <br />
 
-          <h2>Integrating your code back to main / master</h2>
+          <h2 id="integrating-your-code">Integrating your code back to main / master</h2>
           <br />
 
-          <h3>using <strong>git merge</strong></h3>
+          <h3 id="using-git-marge"">using <strong>git merge</strong></h3>
           <br />
           <ol>
             <li>Checkout to the branch you want to merge into</li>
@@ -827,7 +957,7 @@
           </ol>
           <br />
 
-          <h3>Using Pull Requests</h3>
+          <h3 id="using-pull-requests">Using Pull Requests</h3>
           <br />
 
           <p>
@@ -836,7 +966,7 @@
           </p>
           <br />
 
-          <h3>Why do we use pull requests?</h3>
+          <h3 id="why-use-pull-requests">Why do we use pull requests?</h3>
           <br />
 
           <ol>
@@ -882,7 +1012,7 @@
           </p>
           <br />
 
-          <h2>Web Standards</h2>
+          <h2 id="web-standars">Web Standards</h2>
           <br />
 
           <ul>
@@ -892,7 +1022,7 @@
           </ul>
           <br />
 
-          <h2>Browsers</h2>
+          <h2 id="browers">Browsers</h2>
           <br />
 
           <ul>
@@ -903,7 +1033,7 @@
           </ul>
           <br />
 
-          <h2>Request Response Cycle</h2>
+          <h2 id="request-response-cycle">Request Response Cycle</h2>
           <br />
 
           <ul>
@@ -911,14 +1041,14 @@
           </ul>
           <br />
 
-          <h2>HTML</h2>
+          <h2 id="html">HTML</h2>
           <br />
 
           <p>hyper text markup language</p>
           <p><strong>index.htm</strong> or <strong>index.html</strong></p>
           <br />
 
-          <h2>HTML Versions</h2>
+          <h2 id="html-version">HTML Versions</h2>
           <br />
 
           <ul>
@@ -927,7 +1057,7 @@
           </ul>
           <br />
 
-          <h2>HTML Markup</h2>
+          <h2 id="html-markup">HTML Markup</h2>
           <br />
 
           <p>2 types</p>
@@ -942,7 +1072,7 @@
           </ul>
           <br />
 
-          <h3>Attributes</h3>
+          <h3 id="attributes">Attributes</h3>
           <br />
 
           <p>Composed of 2 parts</p>
@@ -950,7 +1080,7 @@
           <p>src=&quot;logo.jpg&quot;</p>
           <br />
 
-          <h2>Shortcuts for Visual Studio Code</h2>
+          <h2 id="shortcuts-for-visual-code">Shortcuts for Visual Studio Code</h2>
           <br />
 
           <p><strong>!</strong> Loads boilerplate HTML</p>
@@ -960,13 +1090,13 @@
           </p>
           <br />
 
-          <h2>CSS Introduction</h2>
+          <h2 id="css-intruction"">CSS Introduction</h2>
           <br />
 
           <p>Cascading Style Sheets</p>
           <br />
 
-          <h2>Styling</h2>
+          <h2 id="styling">Styling</h2>
           <br />
 
           <p>What if I don&#39;t like;</p>
@@ -982,7 +1112,7 @@
           <p>We can change all these things with CSS (styles)</p>
           <br />
 
-          <h2>CSS Versions</h2>
+          <h2 id="css-versions">CSS Versions</h2>
           <br />
 
           <ul>
@@ -995,7 +1125,7 @@
           </blockquote>
           <br />
 
-          <h2>How to include the styles on a page</h2>
+          <h2 id="how-to-include-the-styles-on-page">How to include the styles on a page</h2>
           <br />
 
           <ol>
@@ -1005,7 +1135,7 @@
           </ol>
           <br />
 
-          <h2>How to write CSS styles</h2>
+          <h2 id="how-to-write-css-styles">How to write CSS styles</h2>
           <br />
 
           <p>4 ways to target styling HTML content;</p>
@@ -1027,7 +1157,7 @@
           </ol>
           <br />
 
-          <h2>How to construct a style</h2>
+          <h2 id="how-to-construct-a-style">How to construct a style</h2>
           <br />
 
           <ul>
@@ -1057,7 +1187,7 @@
           <h2><em>February 24, 2023</em></h2>
           <br /><br />
 
-          <p>
+          <p id="soft-skills-2">
             Day dedicated to Soft Skills with the theme
             <em><strong>&quot;Intercultural Competences&quot;</strong></em>
           </p>

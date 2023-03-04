@@ -90,7 +90,7 @@ body {
 }
 
 /* history button */
-.history {
+.about {
   position: fixed;
   right: 15.5vw;
   margin: 2.5vw auto;
@@ -112,14 +112,14 @@ body {
   transition: color 500ms ease, text-shadow 500ms ease;
 }
 
-.history:hover {
+.about:hover {
   color: rgb(241, 7, 7);
   text-shadow: 0 0 10px white;
   background-image: url("../Images/hexagon_light.jpg");
 }
 
-.history .face3,
-.history .face4 {
+.about .face3,
+.about .face4 {
   position: absolute;
   top: 0;
   left: 0;
@@ -132,8 +132,8 @@ body {
   backface-visibility: hidden;
 }
 
-.history .face3:before,
-.history .face4:before {
+.about .face3:before,
+.about .face4:before {
   content: "";
   position: absolute;
   width: 3.5vw;
@@ -141,21 +141,21 @@ body {
   background: inherit;
 }
 
-.history .face3 {
+.about .face3 {
   transform: rotate(60deg);
 }
 
-.history .face3:before {
+.about .face3:before {
   left: 0;
   transform-origin: left top;
   transform: rotate(-60deg) translate(-110px, 0);
 }
 
-.history .face4 {
+.about .face4 {
   transform: rotate(-60deg);
 }
 
-.history .face4:before {
+.about .face4:before {
   right: 0;
   transform-origin: right top;
   transform: rotate(60deg) translate(110px, 0);
