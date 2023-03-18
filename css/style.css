@@ -2,7 +2,7 @@ body {
   max-width: 100%;
   position: relative;
   font-family: 'poppins', sans-serif;
-  background-image: url("../Images/website_background.jpeg"), url("../Images/Home_background.jpeg");
+  background-image: url("../images/website_background.jpeg"), url("../images/Home_background.jpeg");
   background-repeat: no-repeat, repeat;
   background-size: 100%;
 }
@@ -24,7 +24,7 @@ body {
   margin: 2.5vw auto;
   width: 6vw;
   height: 3.5vw;
-  background-image: url("../Images/hexagon_dark.jpg");
+  background-image: url("../images/hexagon_dark.jpg");
   background-position: center center;
   z-index: 1;
   /* Text styling */
@@ -43,7 +43,7 @@ body {
 .home:hover {
   color: rgb(241, 7, 7);
   text-shadow: 0 0 10px white;
-  background-image: url("../Images/hexagon_light.jpg");
+  background-image: url("../images/hexagon_light.jpg");
 }
 
 .home .face1,
@@ -96,7 +96,7 @@ body {
   margin: 2.5vw auto;
   width: 6vw;
   height: 3.5vw;
-  background-image: url("../Images/hexagon_dark.jpg");
+  background-image: url("../images/hexagon_dark.jpg");
   background-position: center center;
   z-index: 1;
   /* Text styling */
@@ -115,7 +115,7 @@ body {
 .about:hover {
   color: rgb(241, 7, 7);
   text-shadow: 0 0 10px white;
-  background-image: url("../Images/hexagon_light.jpg");
+  background-image: url("../images/hexagon_light.jpg");
 }
 
 .about .face3,
@@ -167,7 +167,7 @@ body {
   margin: 2.5vw auto;
   width: 6vw;
   height: 3.5vw;
-  background-image: url("../Images/hexagon_dark.jpg");
+  background-image: url("../images/hexagon_dark.jpg");
   background-position: center center;
   z-index: 1;
   /* Text styling */
@@ -186,7 +186,7 @@ body {
 .contact:hover {
   color: rgb(241, 7, 7);
   text-shadow: 0 0 10px white;
-  background-image: url("../Images/hexagon_light.jpg");
+  background-image: url("../images/hexagon_light.jpg");
 }
 
 .contact .face5,
@@ -238,7 +238,7 @@ body {
   margin: 8.2vw auto;
   width: 6vw;
   height: 3.5vw;
-  background-image: url("../Images/hexagon_dark.jpg");
+  background-image: url("../images/hexagon_dark.jpg");
   background-position: center center;
   z-index: 1;
   /* Text styling */
@@ -257,7 +257,7 @@ body {
 .blog:hover {
   color: rgb(241, 7, 7);
   text-shadow: 0 0 10px white;
-  background-image: url("../Images/hexagon_light.jpg");
+  background-image: url("../images/hexagon_light.jpg");
 }
 
 .blog .face7,
@@ -309,7 +309,7 @@ body {
   margin: 8.5vw auto;
   width: 6vw;
   height: 3.5vw;
-  background-image: url("../Images/hexagon_dark.jpg");
+  background-image: url("../images/hexagon_dark.jpg");
   background-position: center center;
   z-index: 1;
   /* Text styling */
@@ -328,7 +328,7 @@ body {
 .work:hover {
   color: rgb(241, 7, 7);
   text-shadow: 0 0 10px white;
-  background-image: url("../Images/hexagon_light.jpg");
+  background-image: url("../images/hexagon_light.jpg");
 }
 
 .work .face9,
@@ -432,7 +432,7 @@ body {
   margin: 3vw auto;
   width: 6vw;
   height: 3.5vw;
-  background-image: url("../Images/hexagon_light.jpg");
+  background-image: url("../images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
@@ -520,7 +520,7 @@ body {
   margin: 3vw auto;
   width: 6vw;
   height: 3.5vw;
-  background-image: url("../Images/hexagon_light.jpg");
+  background-image: url("../images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
@@ -607,7 +607,7 @@ body {
   margin: 3vw auto;
   width: 6vw;
   height: 3.5vw;
-  background-image: url("../Images/hexagon_light.jpg");
+  background-image: url("../images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
@@ -696,7 +696,7 @@ body {
   margin: 3vw auto;
   width: 6vw;
   height: 3.5vw;
-  background-image: url("../Images/hexagon_light.jpg");
+  background-image: url("../images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 
@@ -784,7 +784,7 @@ body {
   margin: 3vw auto;
   width: 6vw;
   height: 3.5vw;
-  background-image: url("../Images/hexagon_light.jpg");
+  background-image: url("../images/hexagon_light.jpg");
   background-position: center center;
   z-index: 1;
 

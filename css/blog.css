@@ -2,7 +2,7 @@
 
 * {
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -46,7 +46,7 @@ body {
     max-width: 100%;
     position: relative;
     height: 41.25rem;
-    background: url(../Images/blog_wallpaper.png);
+    background: url(../images/blog_wallpaper.png);
     background-size: 100%;
     background-repeat: no-repeat;
     /* justify-content: center;
@@ -102,9 +102,8 @@ a:hover {
     font-weight: bold;
 }
 
-a:active { click n hold in order to see it properly
-    color: #3914EE
-    text-decoration: none;
+a:active {
+    click n hold in order to see it properly color: #3914EE text-decoration: none;
 }
 
 
@@ -115,11 +114,18 @@ a:active { click n hold in order to see it properly
 .blogs-section {
     /* border: solid 1px red; */
     max-width: 100%;
-    padding:1rem;
+    margin: 0 20rem;
+    padding: 1rem;
     display: block;
     text-align: justify;
     /* font-size: 1vw; */
 
+}
+
+.blogs-section div p img{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
 }
 
 .btn.dark {
