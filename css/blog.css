@@ -156,3 +156,25 @@ a:active {
     margin: 6rem 0 18rem;
     line-height: auto;
 }
+
+/* 
+
+tables
+
+*/
+
+table{
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid black;
+}
+
+td h4 {
+    width: 30rem;
+}
+
+th {
+    padding: 1rem;
+}

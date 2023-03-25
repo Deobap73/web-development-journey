@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+    <!-- Meta description -->
+    <meta
+      name="description"
+      content="Author: Deolindo Baptista,
+developer: Deolindo Baptista, Category: web page exercise"
+    />
+
     <!-- Responsive Web Design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -286,6 +293,58 @@
           <li>
             <a href="#repeating-radial-gradient">Repeating Radial Gradient</a>
           </li>
+          <li>
+            <a href="#meta-tags-and-attributes-that-google-supports"
+              >Meta tags and attributes that Google supports</a
+            >
+          </li>
+          <li><a href="#data-nosnippet">HTML tag attributes</a></li>
+          <li><a href="#other-points-to-note">Other points to note</a></li>
+          <li>
+            <a href="#unsupported-tags-and-attributes"
+              >Unsupported tags and attributes</a
+            >
+          </li>
+          <li>
+            <a href="#at-rules">At-rules</a>
+            <ul>
+              <li><a href="#regular">Regular</a></li>
+              <li><a href="#nested">Nested</a></li>
+              <li>
+                <a href="#conditional_group_rules">Conditional group rules</a>
+              </li>
+              <li><a href="#index"></a>Index</li>
+            </ul>
+          </li>
+          <li>
+            <a href="#fonts">Fonts</a>
+            <ul>
+              <li>
+                <a href="#constituent_properties">Constituent properties</a>
+              </li>
+              <li><a href="#google-fonts">Google Fonts</a></li>
+              <li><a href="#fontawesome">Fontawesome</a></li>
+              <li>
+                <a href="#font-direction"
+                  >CSS writing-mode and text-orientation</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#css-variables">Using CSS custom properties (variables)</a>
+            <ul>
+              <li><a href="#basic_usage">Basic usage</a></li>
+              <li><a href="#using-root-pseudo-class">Using the :root pseudo-class</a></li>
+              <li><a href="#inheritance-of-custom-properties">Inheritance of custom properties</a></li>
+            </ul>
+          </li>
+          <li><a href="#tables"></a>
+          <ul>
+            <li><a href="#how-does-a-table-work">How does a table work?</a></li>
+          </ul>
+          </li>
+          
         </ul>
       </div>
     </section>
@@ -2082,7 +2141,9 @@
   
        -->
 
-      <h2 class="blog-title" id="images">Image, Accessibility, Block and inline boxes</h2>
+      <h2 class="blog-title" id="images">
+        Image, Accessibility, Block and inline boxes
+      </h2>
       <img src="./images/Blog_6.png" class="blog-image" alt="Blog image 6" />
       <div class="blog-overview"></div>
 
@@ -2707,7 +2768,9 @@
   
        -->
 
-       <h2 class="blog-title" id="images">Image, Accessibility, Block and inline boxes</h2>
+      <h2 class="blog-title" id="images">
+        Image, Accessibility, Block and inline boxes
+      </h2>
       <img src="./images/Blog_7.png" class="blog-image" alt="Blog image 7" />
       <div class="blog-overview"></div>
 
@@ -3148,7 +3211,7 @@
         Here we are creating a radial-gradient using two colors(i.e. red &amp;
         yellow) and setting it as the background image.
       </p>
-      <pre class="brush: xml; title: ; notranslate" title="">
+      <pre>
       &lt;!DOCTYPE html&gt;
       &lt;html&gt;
       &lt;head&gt;
@@ -3764,8 +3827,679 @@
   
        -->
 
+      <h2 class="blog-title" id="images">Tags, Fonts.....</h2>
+      <img src="./images/Blog_8.webp" class="blog-image" alt="Blog image 7" />
+      <div class="blog-overview"></div>
 
-       
+      <h2><em>March 20, 2023</em></h2>
+      <br />
+
+      <p>New week starts with CSS fonts as launcher theme....</p>
+      <br />
+
+      <h2 id="meta-tags-and-attributes-that-google-supports">
+        Meta tags and attributes that Google supports
+      </h2>
+
+      <p>
+        What <i><strong>meta</strong></i> tags are, which
+        <i><strong>meta</strong></i> tags and HTML attributes Google supports to
+        control indexing, and other important points to note when implementing
+        <i><strong>meta</strong></i> tags on your site.
+      </p>
+      <br />
+
+      <h2>Meta tags</h2>
+      <br />
+
+      <p>
+        <i><strong>Meta</strong></i> tags are HTML tags used to provide
+        additional information about a page to search engines and other clients.
+        Clients process the <i><strong>meta</strong></i> tags and ignore those
+        they don't support. <i><strong>Meta</strong></i> tags are added to the
+        &lt;head&gt; section of your HTML page and generally look like this:
+      </p>
+
+      <pre>
+         &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+        &lt;meta charset="utf-8"&nbsp;
+        &lt;meta name="description" content="Author: A.N. Author, Illustrator: P. Picture, Category: Books, Price: £9.24, Length: 784 pages"&gt;
+        &lt;meta name "google-site-verification" content"+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="&gt;
+        &lt;title Example Books - high-quality used books for children &lt;/title&gt;
+        &lt;meta name="robots" content="noindex,nofollow"&gt;
+        &lt;/head&gt;
+        &lt;/html&gt;
+        </pre
+      >
+
+      <p>Google supports the following meta tags:</p>
+      <br />
+
+      <table>
+        <tbody>
+          <tr>
+            <th>List of meta tags that Google supports</th>
+          </tr>
+          <tr>
+            <td>
+              <h4>
+                &lt;meta name="description" content="A description of the
+                page"&gt;
+              </h4>
+            </td>
+            <td>
+              Use this tag to provide a short description of the page. In some
+              situations, this description is used in the snippet shown in
+              search results.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>
+                &lt;meta name="robots" content=".<wbr />.<wbr />.<wbr />,<wbr />
+                .<wbr />.<wbr />.<wbr />"&gt;
+                <br />
+                <br />
+                &lt;meta name="googlebot" content=".<wbr />.<wbr />.<wbr />,<wbr />
+                .<wbr />.<wbr />.<wbr />"&gt;
+              </h4>
+            </td>
+            <td>
+              <p>
+                These tags control the behavior of search engine crawling and
+                indexing.
+              </p>
+              <p>
+                The &lt;meta name="robots" ...tag applies to all search engines,
+                while the &lt;meta name="googlebot ... tag is specific to
+                Google.
+              </p>
+              <p>
+                In the case of conflicting robots (or googlebot) meta tags, the
+                more restrictive tag applies. For example, if a page has both
+                the max-snippet:50 and nosnippet tags, the nosnippet tag will
+                apply.
+              </p>
+              <p>
+                The default values are index, follow and don't need to be
+                specified. For a full list of values that Google supports, see
+                the list of valid rules.
+              </p>
+              <p>
+                You can also specify this information in the header of your
+                pages using the X-Robots-Tag HTTP header rule. This is
+                particularly useful if you wish to limit indexing of non-HTML
+                files like graphics or other kinds of documents. More
+                information about robots meta tags.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>&lt;meta name="google" content="nositelinkssearchbox"&gt;</h4>
+            </td>
+            <td>
+              When users search for your site, Google Search results sometimes
+              display a search box specific to your site, along with other
+              direct links to your site. This tag tells Google not to show the
+              sitelinks search box. Learn more about sitelinks search box.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>&lt;meta name="googlebot" content="notranslate"&gt;</h4>
+            </td>
+            <td>
+              When Google recognizes that the contents of a page aren't in the
+              language that the user likely wants to read, Google may provide a
+              translated title link and snippet in search results. If the user
+              clicks the translated title link, all further user interaction
+              with the page is through Google Translate, which will
+              automatically translate any links followed. In general, this gives
+              you the chance to provide your unique and compelling content to a
+              much larger group of users. However, there may be situations where
+              this is not desired. This meta tag tells Google that you don't
+              want us to provide a translation for this page.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>&lt;meta name="google" content="nopagereadaloud"&gt;</h4>
+            </td>
+            <td>
+              Prevents various Google text-to-speech services from reading aloud
+              web pages using text-to-speech (TTS).
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>
+                &lt;meta name="google-site-verification" content=".<wbr />.<wbr />.<wbr />"&gt;
+              </h4>
+            </td>
+            <td>
+              You can use this tag on the top-level page of your site to verify
+              ownership for Search Console. Please note that while the values of
+              the name and content attributes must match exactly what is
+              provided to you (including upper and lower case), it doesn't
+              matter if you change the tag from XHTML to HTML or if the format
+              of the tag matches the format of your page.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>
+                &lt;meta http-equiv="Content-Type" content=".<wbr />.<wbr />.<wbr />;
+                charset=.<wbr />.<wbr />.<wbr />"&gt;
+                <br />
+                <br />
+                &lt;meta charset=".<wbr />.<wbr />.<wbr />"&gt;
+              </h4>
+            </td>
+            <td>
+              This defines the page's content type and character set. Make sure
+              that you surround the value of the content attribute with
+              quotes—otherwise the harset attribute may be interpreted
+              incorrectly. We recommend using Unicode/UTF-8 where possible.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>
+                &lt;meta http-equiv="refresh" content=".<wbr />.<wbr />.<wbr />;url=.<wbr />.<wbr />.<wbr />"&gt;
+              </h4>
+            </td>
+            <td>
+              This tag, commonly called meta-refresh, sends the user to a new
+              URL after a certain amount of time, and is sometimes used as a
+              simple form of redirection. However, it is not supported by all
+              browsers and can be confusing to the user. We recommend using a
+              server-side redirect instead.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>
+                &lt;meta name="viewport" content=".<wbr />.<wbr />.<wbr />"&gt;
+              </h4>
+            </td>
+            <td>
+              This tag tells the browser how to render a page on a mobile
+              device. Presence of this tag indicates to Google that the page is
+              mobile friendly. Read more about how to configure the viewport
+              meta< tag.
+            </td>
+          </tr>
+          <tr>
+            <br />
+            <td>
+              <h4>
+                &lt;meta name="rating" content="adult"&gt;
+                <br />
+                <br />
+                &lt;meta name="rating"
+                content="RTA-5042-1996-1400-1577-RTA"&gt;<
+              </h4>
+            </td>
+            <td>
+              Labels a page as containing adult content, to signal that it be
+              filtered by SafeSearch results.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br /><br />
+
+      <h2 id="data-nosnippet">HTML tag attributes</h2>
+      <br />
+      <p>
+        HTML tag attributes are additional values of HTML tags that configure
+        the parent tag. For example, the <i><strong>href</strong></i> attribute
+        of the <i><strong>&lt;a&gt;</strong></i> tag configures the resource the
+        anchor tag points to: &lt;a
+        <strong>href="https://example.com/"</strong>...&gt;
+      </p>
+      <p>
+        Google Search supports a limited number of HTML attributes for indexing
+        purposes. Attributes like <i><strong>src</strong></i> and
+        <i><strong>href</strong></i> are used for discovering resources such as
+        images and URLs. Google also supports various rel attributes that allow
+        site owners to qualify outbound links.
+      </p>
+      <p>
+        The data-nosnippet attribute of <i><strong>div</strong></i
+        >, <i><strong>span</strong></i> and <i><strong>section</strong></i> tags
+        allow you to exclude parts of an HTML page from snippets.
+      </p>
+      <br />
+      <h2 id="other-points-to-note">Other points to note</h2>
+      <br />
+      <ul>
+        <li>
+          Google can read both HTML and XHTML-style meta tags, regardless of the
+          code used on the page.
+        </li>
+        <li>
+          To ensure machine readability, the head section must be valid HTML and
+          in case of attributes, all parent tags closed accordingly.
+        </li>
+        <li>
+          With the exception of google-site-verification, letter case is
+          generally not important in meta tags.
+        </li>
+        <li>
+          You can use other meta tags if they are important to your site, but
+          Google will ignore meta tags that it doesn't support.
+        </li>
+        <li>
+          If you're considering using JavaScript to inject or change meta tags,
+          proceed with caution. We recommend that you avoid using JavaScript to
+          inject or change meta tags whenever possible, and if you must use it,
+          test your implementations thoroughly.
+        </li>
+        <li>
+          To check the meta tags and attributes on your pages, use the URL
+          Inspection Tool.
+        </li>
+      </ul>
+      <br />
+      <h2 id="unsupported-tags-and-attributes">
+        Unsupported tags and attributes
+      </h2>
+      <br />
+
+      <p>
+        The following tags and attributes aren't supported by Google Search and
+        are ignored. We're including them here because they're either very
+        common in HTML or we used to support them.
+      </p>
+      <br />
+      <table>
+        <tbody>
+          <tr>
+            <th>Unsupported tags and attributes</th>
+          </tr>
+          <tr>
+            <td>&lt;meta name="keywords" content="..."&gt;</td>
+            <td>
+              The meta-keyword tag is not used by Google Search, and it has no
+              effect on indexing and ranking at all.
+            </td>
+          </tr>
+          <tr>
+            <td>HTML tag lang attributes</td>
+            <td>
+              Google Search detects the language of a page based on the textual
+              content of the page. It doesn't rely on code annotations such as
+              the lang.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              &lt;link rel="next" href="..."&gt;
+              <br />
+              <br />
+              &lt;link rel="prev" href="..."&gt;<
+            </td>
+            <td>
+              Google no longer uses these HTML &lt;link&gt; tags, and they have
+              no effect on indexing.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+
+      <h2 id="at-rules">At-rules</h2>
+      <br />
+
+      <p>
+        <strong>At-rules</strong> are CSS statements that instruct CSS how to
+        behave. They begin with an at sign, '<code>@</code>' (<code
+          >U+0040 COMMERCIAL AT</code
+        >), followed by an identifier and includes everything up to the next
+        semicolon, '<code>;</code>' (<code>U+003B SEMICOLON</code>), or the
+        next, whichever comes first.
+      </p>
+      <br />
+
+      <h3 id="regular">Regular</h3>
+      <br />
+
+      <p>
+        There are several regular at-rules, designated by their identifiers,
+        each with a different syntax,
+        <em> and should always be the first line of code in the CSS</em>
+      </p>
+      <br />
+      <ul>
+        <li>
+          <code>@charset</code> — Defines the character set used by the style
+          sheet.
+        </li>
+        <li>
+          <code>@import</code> — Tells the CSS engine to include an external
+          style sheet. example: <br /><br />
+
+          @import
+          url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Montserrat:ital,wght@0,400;0,800;1,400&display=swap');
+          <br />
+          @import url(header.css);
+        </li>
+        <br />
+        <li>
+          <code>@namespace</code>— Tells the CSS engine that all its content
+          must be considered prefixed with an XML namespace.
+        </li>
+      </ul>
+      <br />
+      <h3 id="nested">Nested</h3>
+      <br />
+
+      <p>
+        A subset of nested statements, which can be used as a statement of a
+        style sheet as well as inside of conditional group rules.
+      </p>
+      <ul>
+        <li>
+          <code>@media</code> — A conditional group rule that will apply its
+          content if the device meets the criteria of the condition defined
+          using a <em>media query</em>.
+        </li>
+        <li>
+          <code>@supports</code> — A conditional group rule that will apply its
+          content if the browser meets the criteria of the given condition.
+        </li>
+        <li>
+          <code>@document</code> — A conditional group rule that will apply its
+          content if the document in which the style sheet is applied meets the
+          criteria of the given condition.
+          <em>(deferred to Level 4 of CSS Spec)</em>
+        </li>
+        <li>
+          <code>@page</code> — Describes the aspect of layout changes that will
+          be applied when printing the document.
+        </li>
+        <li>
+          <code>@font-face</code> — Describes the aspect of an external font to
+          be downloaded.
+        </li>
+        <li>
+          <code>@keyframes</code> — Describes the aspect of intermediate steps
+          in a CSS animation sequence.
+        </li>
+        <li>
+          <code>@counter-style</code> — Defines specific counter styles that are
+          not part of the predefined set of styles.
+          <em
+            >(at the Candidate Recommendation stage, but only implemented in
+            Gecko as of writing)</em
+          >
+        </li>
+        <li>
+          <code>@font-feature-values</code> — Define common names in
+          <code>font-variant-alternates</code> for feature activated differently
+          in OpenType.
+          <em
+            >(at the Candidate Recommendation stage, but only implemented in
+            Gecko as of writing)</em
+          >
+        </li>
+        <li>
+          <code>@property</code> — Describes the aspect of custom properties and
+          variables. <em>(currently at the Working Draft stage)</em>
+        </li>
+        <li>
+          <code>@layer</code> — Declares a cascade layer and defines the order
+          of precedence in case of multiple cascade layers.
+        </li>
+      </ul>
+      <br />
+
+      <h2 id="conditional_group_rules">Conditional group rules</h2>
+      <br />
+
+      <p>
+        Much like the values of properties, each at-rule has a different syntax.
+        Nevertheless, several of them can be grouped into a special category
+        named
+        <strong>conditional group rules</strong>. These statements share a
+        common syntax and each of them can include
+        <em>nested statements</em>—either <em>rulesets</em> or
+        <em>nested at-rules</em>. Furthermore, they all convey a common semantic
+        meaning—they all link some type of condition, which at any time
+        evaluates to either <strong>true</strong> or <strong>false</strong>. If
+        the condition evaluates to <strong>true</strong>, then all of the
+        statements within the group will be applied.
+      </p>
+      <p>
+        Conditional group rules are defined in CSS Conditionals Level 3 and are:
+      </p>
+      <ul>
+        <li><code>@media</code>,</li>
+        <li><code>@supports</code>,</li>
+        <li>
+          <code>@document</code>. <em>(deferred to Level 4 of CSS Spec)</em>
+        </li>
+      </ul>
+      <p>
+        Since each conditional group may also contain nested statements, there
+        may be an unspecified amount of nesting.
+      </p>
+      <br />
+
+      <h2 id="index">Index</h2>
+      <br />
+
+      <ul>
+        <li><code>@charset</code></li>
+        <li><code>@color-profile</code></li>
+        <li><code>@container</code></li>
+        <li><code>@counter-style</code></li>
+        <li><code>@document</code></li>
+        <li><code>@font-face</code></li>
+        <li><code>@font-feature-values</code></li>
+        <li><code>@font-palette-values</code></li>
+        <li><code>@import</code></li>
+        <li><code>@keyframes</code></li>
+        <li><code>@layer</code></li>
+        <li><code>@media</code></li>
+        <li><code>@namespace</code></li>
+        <li><code>@page</code></li>
+        <li><code>@property</code></li>
+        <li><code>@supports</code></li>
+      </ul>
+      <br />
+
+      <h2 id="fonts">fonts</h2>
+      <br />
+
+      <p>
+        The <strong><code>font</code></strong> CSS shorthand property sets all
+        the different properties of an element's font. Alternatively, it sets an
+        element's font to a system font.
+      </p>
+      <br />
+
+      <p>
+        As with any shorthand property, any individual value that is not
+        specified is set to its corresponding initial value (possibly overriding
+        values previously set using non-shorthand properties). Though not
+        directly settable by <code>font</code>, the longhands
+        <code>font-size-adjust</code> and <code>font-kerning</code> are also
+        reset to their initial values.
+      </p>
+
+      <h2 id="constituent_properties">Constituent properties</h2>
+      <br />
+      <p>This property is a shorthand for the following CSS properties:</p>
+      <br />
+      <ul>
+        <li><code>font-family</code></li>
+        <li><code>font-size</code></li>
+        <li><code>font-stretch</code></li>
+        <li><code>font-style</code></li>
+        <li><code>font-variant</code></li>
+        <li><code>font-weight</code></li>
+        <li><code>line-height</code></li>
+      </ul>
+      <br />
+
+      <h2 id="google-fonts">Google Fonts</h2>
+
+      <p>
+        Google Fonts makes it easy to bring personality and performance to your
+        websites and products. Our robust catalog of open-source fonts and
+        icons, makes it easy to integrate expressive type and icons
+        seamlessly—no matter where you are in the world.
+      </p>
+      <br />
+
+      <h2 id="fontawesome">Fontawesome</h2>
+
+      <p>
+        When we need to get icons in our web project quick the fastest and
+        easiest way is to use Font Awesome. Font Awesome is a font and icon
+        toolkit based on CSS and Less. As of 2020, Font Awesome was used by 38%
+        of sites that use third-party font scripts, placing Font Awesome in
+        second place after Google Fonts.
+      </p>
+      <br />
+
+      <h3>How to use Font Awesome on your site</h3>
+      <p>
+        Font Awesome is a widely-used icon set that gives you scalable vector
+        images that can be customized with CSS. With over 1,600 icons in the
+        free set, you should be able to find an icon to suit your needs.
+      </p>
+      <br />
+
+      <h2 id="font-direction">CSS writing-mode and text-orientation</h2>
+
+      <p>
+        writing-mode is the running direction of vertical text within a line.
+        Even if Latin scripts such as Italian, German and English run
+        horizontally from left to right, text set vertically is sometimes
+        useful, for example on the spines of books and as a space-saving caption
+        for tables. text-orientation specifies the text orientation for vertical
+        texts within a line.
+      </p>
+      <br />
+      <h3>Traffic direction of Arabic websites</h3>
+      <p>
+        Most arabic websites typeset text from right to left. writing-mode only
+        offers left-to-right and right-to-left variants. transform :
+        rotate(180deg) rotates the text from bottom to top as in the side
+        caption of the table in the example. In order for the header cells of
+        the table with writing-mode: vertical-rl or writing-mode: vertical-lr to
+        be aligned vertically in Safari, a span or a div must enclose the text.
+        IE 11 still supports writing mode in an older syntax: -ms-writing-mode :
+        tb-rl or -ms-writing-mode : tb-lr.
+      </p>
+      <br />
+
+      <h2 id="css-variables">Using CSS custom properties (variables)</h2>
+      <br />
+
+      <p>
+        <strong>Custom properties</strong> (sometimes referred to as
+        <strong>CSS variables</strong> or <strong>cascading variables</strong>)
+        are entities defined by CSS authors that contain specific values to be
+        reused throughout a document. They are set using custom property
+        notation (e.g., <strong><code>--main-color: black;</code></strong
+        >) and are accessed using the <code>var()</code> function (e.g.,
+        <code>color: var(--main-color);</code>).
+      </p>
+      <br />
+      <p>
+        Complex websites have very large amounts of CSS, often with a lot of
+        repeated values. For example, the same color might be used in hundreds
+        of different places, requiring global search and replace if that color
+        needs to change. Custom properties allow a value to be stored in one
+        place, then referenced in multiple other places. An additional benefit
+        is semantic identifiers. For example,
+        <code>--main-text-color</code> is easier to understand than
+        <code>#00ff00</code>, especially if this same color is also used in
+        other contexts.
+      </p>
+      <br />
+      <p>
+        Custom properties are subject to the cascade and inherit their value
+        from their parent.
+      </p>
+      <br />
+
+      <h2 id="basic_usage">Basic usage</h2>
+      <br />
+
+      <p>
+        Declaring a custom property is done using a custom property name that
+        begins with a double hyphen (<code>--</code>), and a property value that
+        can be any valid CSS value.
+      </p>
+
+      <p>
+        Note that the selector given to the ruleset defines the scope that the
+        custom property can be used in. A common best practice is to define
+        custom properties on the<code>:root</code> pseudo-class, so that it can
+        be applied globally across your HTML document
+      </p>
+      <br />
+
+      <p>
+        However, this doesn't always have to be the case: you maybe have a good
+        reason for limiting the scope of your custom properties.
+      </p>
+      <br />
+
+      <h2 id="using-root-pseudo-class">Using the :root pseudo-class</h2>
+      <br />
+      <p>
+        For some CSS declarations, it is possible to declare this higher in the
+        cascade and let CSS inheritance solve this problem naturally. For
+        non-trivial projects, this is not always possible. By declaring a custom
+        property on the :root pseudo-class and using it where needed throughout
+        the document, a CSS author can reduce the need for repetition
+      </p>
+      <br />
+
+      <h2 id="inheritance-of-custom-properties">
+        Inheritance of custom properties
+      </h2>
+      <br />
+      <p>
+        Custom properties do inherit. This means that if no value is set for a
+        custom property on a given element, the value of its parent is used. The
+        value is computed where it is needed, not stored for use in other rules.
+        For instance, you cannot set a property for an element and expect to
+        retrieve it in a sibling's descendant's rule. The property is only set
+        for the matching selector and its descendants, like any normal CSS.
+      </p>
+      <br />
+      <h2 id="tables">HTML table</h2>
+      <br />
+      <br />
+
+      <p>
+        A table is a structured set of data made up of rows and columns (tabular
+        data). A table allows you to quickly and easily look up values that
+        indicate some kind of connection between different types of data
+      </p>
+      <br />
+
+      <h3 id="how-does-a-table-work">How does a table work?</h3>
+      <br />
+      <p>
+        The point of a table is that it is rigid. Information is easily
+        interpreted by making visual associations between row and column
+        headers.
+        <br />When implemented correctly, HTML tables are handled well by
+        accessibility tools such as screen readers, so a successful HTML table
+        should enhance the experience of sighted and visually impaired users
+        alike.
+      </p>
     </section>
 
     <script src="js/firebase.js"></script>
